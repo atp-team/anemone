@@ -1,0 +1,24 @@
+{
+  "platform": {
+    "appId": "juicy-day",
+    "driver": "anemone",
+    "type": "interface",
+    "version": 1
+  },
+  "input": {
+    "inCostCzk": {
+      "type": "numberField",
+      "label": "Cost in CZK"
+    }
+  },
+  "output": {
+    "outCostEur": {
+      "type": "numberLabel",
+      "label": "Cost in EUR"
+    },
+    "outCostUsd": {
+      "type": "numberLabel",
+      "label": "Cost in USD"
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "platform": {
+    "appId": "juicy-day",
+    "driver": "anemone",
+    "type": "manifest",
+    "version": 1
+  },
+  "variables": {
+    "varCostCzk": {
+      "dataType": "float",
+      "get": true,
+      "set": false
+    },
+    "varCostEur": {
+      "dataType": "float",
+      "get": true,
+      "set": false
+    },
+    "varCostUsd": {
+      "dataType": "float",
+      "get": true,
+      "set": false
+    }
+  },
+  "bindings": {
+    "interface": {
+      "bindCostInCzk": {
+        "variable": "varCostCzk",
+        "from": "inCostCzk"
+      },
+      "bindCostInEur": {
+        "variable": "varCostEur",
+        "to": "outCostEur"
+      },
+      "bindCostInUsd": {
+        "variable": "varCostUsd",
+        "to": "outCostUsd"
+      }
+    },
+    "connectors": {
+      "exchangeRate": {
+        "connector": "exchangeRate",
+        "variable": "varCostCzk",
+        "args": {
+          "apiKey": "INSERT YOUR API KEY HERE"
+        },
+        "output": {
+          "variables": [
+            "varCostEur",
+            "varCostUsd"
+          ]
+        }
+      }
+    }
+  }
+}
