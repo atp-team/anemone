@@ -115,6 +115,10 @@ For their great effort we owe a BIG thank to the following people and entities f
 
 > Just follow our [manual](TODO). It includes a *part list* and even a *model of cute case* which can be 3D printed! All the difficult stuff is done, what remains are just the fun parts ;).
 
+## Terms and License
+
+This software is licensed under [MIT license](TODO).
+
 
 
 
