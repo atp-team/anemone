@@ -1,9 +1,7 @@
-# Anemone
+![Anemone Platform](https://github.com/ceskasporitelna/anemone/raw/master/documentation/images/anemone_logo.png)
 
 > Look at you hacker, in order to use me, you must understand first.
-> - anemone
-
-![Anemone Platform](https://github.com/ceskasporitelna/anemone/raw/master/documentation/images/anemone_logo.png)
+> -- anemone
 
 ## Introducing the Platform
 
