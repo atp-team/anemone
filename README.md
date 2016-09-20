@@ -3,7 +3,7 @@
 > Look at you hacker, in order to use me, you must understand first.
 > - anemone
 
-TODO logo
+![Anemone Platform](anemone/documentation/images/anemone_logo.png)
 
 ## Introducing the Platform
 
