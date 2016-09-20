@@ -1,7 +1,6 @@
 <img alt="Anemone Platform" src="https://github.com/ceskasporitelna/anemone/raw/master/documentation/images/anemone_logo.png" width="100">
 
-> Look at you hacker, in order to use me, you must understand first.
-> -- anemone
+> "Look at you hacker, in order to use me, you must understand first." -- Anemone
 
 ## Introducing the Platform
 
@@ -34,6 +33,18 @@ Anemone has three main parts:
 The *Cloud*, *Mobile Client* and *Tentacle* together form a platform where **Anemone Apps** can run.
 
 And *Anemone Apps* are here for you *to use them*, *to develop them* and mainly **to have some fun with them**.
+
+### Used technologies
+
+> "They say great science is built on the shoulders of giants." -- Cave Johnson
+
+Anemone Platform is build using well known technologies you should not miss. 
+
+* Anemone Tentacle is an Open Hardware device build around on the Arduino YÚN and Arduino TFT Display.
+* Anemone Cloud is created using Ruby on Rails
+* Anemone Mobile Client is programmed in Unity
+
+<img alt="Open Hardware" src="https://github.com/ceskasporitelna/anemone/raw/master/documentation/images/tentacle_render_a.png" width="100"> <img alt="Arduino YÚN" src="https://github.com/ceskasporitelna/anemone/raw/master/documentation/images/fritzing-arduino-yun.png" width="100"> <img alt="Arduino TFT Display" src="https://github.com/ceskasporitelna/anemone/raw/master/documentation/images/fritzing-arduino-tft.png" width="100"> <img alt="Ruby" src="https://github.com/ceskasporitelna/anemone/raw/master/documentation/images/tentacle_render_a.png" width="100"> <img alt="Rails" src="https://github.com/ceskasporitelna/anemone/raw/master/documentation/images/tentacle_render_a.png" width="100"> <img alt="Unity" src="https://github.com/ceskasporitelna/anemone/raw/master/documentation/images/tentacle_render_a.png" width="100">
 
 ## How it works? 
 
@@ -309,9 +320,9 @@ In case of any question or issue, feel free to add a GitHub Issue in this reposi
 
 The Anemone Cloud service is operated by [WebAPI Team](TODO) of [Česká Spořitelna](TODO).
 
-TODO logo WebAPI
+<a href="http://www.juicymo.cz"><img alt="Juicymo - Mobile Apps Development" src="https://github.com/ceskasporitelna/anemone/raw/master/documentation/images/juicymo.png" width="100"></a>
 
-TODO logo Juicymo
+TODO logo WebAPI
 
 ### Special thanks
 
