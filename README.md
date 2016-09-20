@@ -21,15 +21,15 @@ Anemone has three main parts:
 
 **Mobile Client** is iOS and Android application which allows you to manage *Tentacles* and control *Anemone Apps*. You can download it for free from Apple AppStore and Google Play Store. Both links are on our website [http://www.anemone.cloud](http://www.anemone.cloud).
 
-| <img alt="Anemone Mobile Client - List of Tentacles" src="https://github.com/ceskasporitelna/anemone/raw/master/documentation/images/mobile_client_1_tentacles_list.png" width="300"> | <img alt="Anemone Mobile Client - Tentacle Detail" src="https://github.com/ceskasporitelna/anemone/raw/master/documentation/images/mobile_client_2_tentacle_detail.png" width="300"> | 
+<img alt="Anemone Mobile Client - List of Tentacles" src="https://github.com/ceskasporitelna/anemone/raw/master/documentation/images/mobile_client_1_tentacles_list.png" width="300"> <img alt="Anemone Mobile Client - Tentacle Detail" src="https://github.com/ceskasporitelna/anemone/raw/master/documentation/images/mobile_client_2_tentacle_detail.png" width="300">
 
 **Cloud** is the final component of the platform which connects the Tentacles to the Mobile Client. But that is not all. The Anemone Cloud can connect both the Mobile Client and Tentacles to other API service in the internet using **Connectors**.
 
-TODO architecture image
+<img alt="Anemone Platform Architecture" src="https://github.com/ceskasporitelna/anemone/raw/master/documentation/images/anemone_architecture.png" width="600">
 
 **Tentacle** is open hardware device based on Arduino YÚN which is the *Internet of Things* part the our platform. You can either *connect as a guest* to a Tentacle of your friend, or you can *build your own* (which will recognize you as its master).
 
-TODO images
+<img alt="Anemone Tentacle - View from Right" src="https://github.com/ceskasporitelna/anemone/raw/master/documentation/images/tentacle_render_a.png" width="300"> <img alt="Anemone Tentacle - View from Left" src="https://github.com/ceskasporitelna/anemone/raw/master/documentation/images/tentacle_render_b.png" width="300">
 
 The *Cloud*, *Mobile Client* and *Tentacle* together form a platform where **Anemone Apps** can run.
 
@@ -75,7 +75,7 @@ When defining the Anemone App Mobile User Interface you can use set of prepared 
 
 Interface of your Anemone App can look like this:
 
-TODO image
+<img alt="Anemone App Interface Example" src="https://github.com/ceskasporitelna/anemone/raw/master/documentation/images/mobile_client_3_app_dashboard.png" width="300">
 
 In order to make this Mobile User Interface, you need to create an **interface.json** file which can look like this:
 
@@ -108,7 +108,7 @@ In order to make this Mobile User Interface, you need to create an **interface.j
 
 The *manifest.json* file describes list of **variables** and **bindings** which together form the cloud component of every *Anemone App*.
 
-TODO diagram
+<img alt="Anemone App Communication Schema" src="https://github.com/ceskasporitelna/anemone/raw/master/documentation/images/cloud_communication.jpg" width="600">
 
 ##### Variables
 
@@ -128,7 +128,6 @@ Every *variable* has a **name** and **data type**. And in addition an informatio
       "set": false
     }
   }
-  ...
 }
 ```
 
@@ -138,13 +137,10 @@ The second part of the *manifest.json* file contains the list of bindings. There
 
 ```json
 {
-  ...
   "bindings": {
     "interface": {
-      ...
     },
     "connectors": {
-      ...
     }
   }
 }
@@ -154,7 +150,6 @@ User interface bindings (defined inside the "interface" section) describe **bind
 
 ```json
 {
-  ...
   "bindings": {
     "interface": {
       "bindCostInCzk": {
@@ -166,7 +161,6 @@ User interface bindings (defined inside the "interface" section) describe **bind
         "to": "outCostEur"
       }
     },
-    ...
   }
 }
 ```
@@ -181,9 +175,7 @@ The connector definition look like this:
 
 ```json
 {
-  ...
   "bindings": {
-    ...
     "connectors": {
       "exchangeRate": {
         "connector": "exchangeRate",
@@ -263,7 +255,7 @@ This component is in fact an normal **arduino .ino sketch** file which runs on t
 
 In order to make the development of Anemone sketches easier, we have prepared the [anemone arduino library](TODO) and default [Tentacle user interface components and screens](TODO).
 
-TODO screens
+<img alt="Anemone Tentacle UI - Ready for app installation" src="https://github.com/ceskasporitelna/anemone/raw/master/documentation/images/app_ready_for_installation.png"> <img alt="Anemone Tentacle UI - Currency Converter" src="https://github.com/ceskasporitelna/anemone/raw/master/documentation/images/app_converter.png"> <img alt="Anemone Tentacle UI - OTA Update in progress" src="https://github.com/ceskasporitelna/anemone/raw/master/documentation/images/app_ota.png"> <img alt="Anemone Tentacle UI - Generating guest code" src="https://github.com/ceskasporitelna/anemone/raw/master/documentation/images/app_generating_code.png"> <img alt="Anemone Tentacle UI - Share mode" src="https://github.com/ceskasporitelna/anemone/raw/master/documentation/images/app_generated_code.png"> <img alt="Anemone Tentacle UI - Guest code expired" src="https://github.com/ceskasporitelna/anemone/raw/master/documentation/images/app_code_expired.png"> <img alt="Anemone Tentacle UI - Menu" src="https://github.com/ceskasporitelna/anemone/raw/master/documentation/images/app_menu.png">
 
 > You can find more information about creation of *arduino sketch* files for Anemone Apps in our [How to create Anemone App Sketch in Arduino IDE](TODO) tutorial.
 
@@ -362,6 +354,8 @@ For their great effort we owe a BIG thank to the following people and entities f
 ## Terms and License
 
 This software is licensed under [MIT license](TODO).
+
+<img alt="Anemone Tentacle" src="https://github.com/ceskasporitelna/anemone/raw/master/documentation/images/tentacle_gloss.png" width="300">
 
 
 
