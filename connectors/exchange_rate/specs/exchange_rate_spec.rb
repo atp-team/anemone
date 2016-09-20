@@ -2,7 +2,7 @@ require_relative '../../../app/models/connectors/base'
 require_relative '../../../app/models/connectors/exchange_rate'
 
 describe Connectors::ExchangeRate do
-  API_KEY = 'c41b4bb5-639f-4c22-9c02-202b3c2602e8'
+  API_KEY = 'INSERT YOUR API KEY HERE'
   describe 'call' do
     it 'yields exchange rate for value' do
       czk = 250
