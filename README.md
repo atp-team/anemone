@@ -312,17 +312,15 @@ When starting *as a Developer* do the following:
 
 Anemone platform is a result of cooperation between [Honza Sechovec](https://twitter.com/jansechovec) and [Juicymo](http://www.juicymo.cz).
 
-It could never be created without support from [Česká Spořitelna](TODO) and their [WebAPI](TODO) Team (TODO je toto OK, Honzo?)
+It could never be created without support of guys from [Česká Spořitelna](https://developers.csas.cz)
 
 Anemone has been created with love in Prague.
 
 In case of any question or issue, feel free to add a GitHub Issue in this repository.
 
-The Anemone Cloud service is operated by [WebAPI Team](TODO) of [Česká Spořitelna](TODO).
 
 <a href="http://www.juicymo.cz"><img alt="Juicymo - Mobile Apps Development" src="https://github.com/ceskasporitelna/anemone/raw/master/documentation/images/juicymo.png" width="100"></a>
 
-TODO logo WebAPI
 
 ### Special thanks
 
