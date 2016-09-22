@@ -342,7 +342,7 @@ For their great effort we owe a BIG thank to the following people and entities f
 2. Spread the word! I you know somebody who might be interested in our platform invite him ale show him your Tentacle.
 3. Make your own apps based on [manual](TODO).
 4. Make new connectors and submit them as pull requests to this repository.
-5. Interested in serious development? Wanna extend the platform itself? Contact Honza at [TODO EMAIL?](TODO).
+5. Interested in serious development? Wanna extend the platform itself? Contact Honza at honza@flexer.cz.
 
 ## FAQ
 
