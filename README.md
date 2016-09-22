@@ -6,7 +6,7 @@
 
 Anemone is an open platform which allows you to experiment with *Internet of Things*. Anemone allows you to easily **build open hardware device** and to **create a simple apps** which will run *both in cloud and on mobile devices*.
 
-First take a look at our website [http://www.anemone.cloud](http://www.anemone.cloud).
+First take a look at our website [http://anemone.cloud](http://anemone.cloud).
 
 Then continue reading.
 
@@ -18,7 +18,7 @@ Anemone has three main parts:
 * Cloud
 * Tentacle
 
-**Mobile Client** is iOS and Android application which allows you to manage *Tentacles* and control *Anemone Apps*. You can download it for free from Apple AppStore and Google Play Store. Both links are on our website [http://www.anemone.cloud](http://www.anemone.cloud).
+**Mobile Client** is iOS and Android application which allows you to manage *Tentacles* and control *Anemone Apps*. You can download it for free from Apple AppStore and Google Play Store. Both links are on our website [http://anemone.cloud](http://anemone.cloud).
 
 <img alt="Anemone Mobile Client - List of Tentacles" src="https://github.com/ceskasporitelna/anemone/raw/master/documentation/images/mobile_client_1_tentacles_list.png" width="300"> <img alt="Anemone Mobile Client - Tentacle Detail" src="https://github.com/ceskasporitelna/anemone/raw/master/documentation/images/mobile_client_2_tentacle_detail.png" width="300">
 
