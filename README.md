@@ -6,9 +6,25 @@
 
 Anemone is an open platform which allows you to experiment with *Internet of Things*. Anemone allows you to easily **build open hardware device** and to **create a simple apps** which will run *both in cloud and on mobile devices*.
 
-First take a look at our website [http://anemone.cloud](http://anemone.cloud).
+First take a look at our website [http://www.anemone.cloud](http://www.anemone.cloud).
 
 Then continue reading.
+
+## Platform ecosystem
+
+Anemone ecosystem consists of:
+
+* **Anemone Overview** (you are reading it now)
+* **Anemone Platform** which consists of:
+** [Anemome Cloud](http://www.anemone.cloud) 
+** **Anemone Mobile Client** iOS & Android apps (you can download them from [www.anemone.cloud](http://www.anemone.cloud))
+** [Anemone Tentacle](https://github.com/ceskasporitelna/anemone/blob/master/documentation/HowToBuildAnemoneTentacle.md) open hardware device you can build and 3D print
+* [Anemone Documentation](https://github.com/ceskasporitelna/anemone/tree/master/documentation) where you can read everything you need to know
+* [Anemome Toolkit](https://github.com/ceskasporitelna/anemone/tree/master/toolkit) which you need in order to create a Tentacle or build Anemone App
+* [Anemome Apps Repository](https://github.com/ceskasporitelna/anemone/tree/master/apps)
+* [Anemome Cloud Connectors List](https://github.com/ceskasporitelna/anemone/tree/master/connectors)
+
+More information about the Anemone Platform are provided below.
 
 ## Platform architecture
 
@@ -18,7 +34,7 @@ Anemone has three main parts:
 * Cloud
 * Tentacle
 
-**Mobile Client** is iOS and Android application which allows you to manage *Tentacles* and control *Anemone Apps*. You can download it for free from Apple AppStore and Google Play Store. Both links are on our website [http://anemone.cloud](http://anemone.cloud).
+**Mobile Client** is iOS and Android application which allows you to manage *Tentacles* and control *Anemone Apps*. You can download it for free from Apple AppStore and Google Play Store. Both links are on our website [http://www.anemone.cloud](http://www.anemone.cloud).
 
 <img alt="Anemone Mobile Client - List of Tentacles" src="https://github.com/ceskasporitelna/anemone/raw/master/documentation/images/mobile_client_1_tentacles_list.png" width="300"> <img alt="Anemone Mobile Client - Tentacle Detail" src="https://github.com/ceskasporitelna/anemone/raw/master/documentation/images/mobile_client_2_tentacle_detail.png" width="300">
 
@@ -180,7 +196,7 @@ The connectors bindings (defined inside the "connectors" section) describe **bin
 
 Connector is a component of Anemone Cloud which provides access to other web services (like Twitter of CSAS WebAPI).
 
-Connectors are integrate in the Anemone Cloud. List of all existing connectors can be found [here](TODO). You can [create new connectors based on our manual](TODO).
+Connectors are integrate in the Anemone Cloud. List of all existing connectors can be found [here](https://github.com/ceskasporitelna/anemone/tree/master/connectors). You can [create new connectors based on our manual](https://github.com/ceskasporitelna/anemone/blob/master/documentation/HowToMakeAnemoneConnector.md).
 
 The connector definition look like this:
 
@@ -264,7 +280,7 @@ The last component of Anemone App is the one which will run on a Tentacle.
 
 This component is in fact an normal **arduino .ino sketch** file which runs on the *Arduino YÚN* which is "the brain" of a Tentacle.
 
-In order to make the development of Anemone sketches easier, we have prepared the [anemone arduino library](TODO) and default [Tentacle user interface components and screens](TODO).
+In order to make the development of Anemone sketches easier, we have prepared the [anemone arduino library](https://github.com/ceskasporitelna/anemone/tree/master/toolkit/anemone-arduino-library) and default [Tentacle user interface components and screens](TODO).
 
 <img alt="Anemone Tentacle UI - Ready for app installation" src="https://github.com/ceskasporitelna/anemone/raw/master/documentation/images/app_ready_for_installation.png"> <img alt="Anemone Tentacle UI - Currency Converter" src="https://github.com/ceskasporitelna/anemone/raw/master/documentation/images/app_converter.png"> <img alt="Anemone Tentacle UI - OTA Update in progress" src="https://github.com/ceskasporitelna/anemone/raw/master/documentation/images/app_ota.png"> <img alt="Anemone Tentacle UI - Generating guest code" src="https://github.com/ceskasporitelna/anemone/raw/master/documentation/images/app_generating_code.png"> <img alt="Anemone Tentacle UI - Share mode" src="https://github.com/ceskasporitelna/anemone/raw/master/documentation/images/app_generated_code.png"> <img alt="Anemone Tentacle UI - Guest code expired" src="https://github.com/ceskasporitelna/anemone/raw/master/documentation/images/app_code_expired.png"> <img alt="Anemone Tentacle UI - Menu" src="https://github.com/ceskasporitelna/anemone/raw/master/documentation/images/app_menu.png">
 
@@ -276,17 +292,17 @@ You can use the Anemone platform either as a **User** or as a **Developer**.
 
 In order to start *as a User*, all you need to do is:
 
-1. [Sign up](http://anemone.cloud/users/sign_up) for free on the Anemone platform website. Select your account avatar while doing so (by a name of the icon only - that is the real fun!)
-2. Download the **Mobile Client app for iOS or Android** (you can find links to apps on our website [http://anemone.cloud](http://anemone.cloud))
-3. Find some **Tentacle** which you would like to control. In order to control a Tentacle, you need to either *own it* (which means to [build it](TODO) first), or be invited to it *as a guest*
+1. [Sign up](http://www.anemone.cloud/users/sign_up) for free on the Anemone platform website. Select your account avatar while doing so (by a name of the icon only - that is the real fun!)
+2. Download the **Mobile Client app for iOS or Android** (you can find links to apps on our website [http://www.anemone.cloud](http://www.anemone.cloud))
+3. Find some **Tentacle** which you would like to control. In order to control a Tentacle, you need to either *own it* (which means to [build it](https://github.com/ceskasporitelna/anemone/blob/master/documentation/HowToBuildAnemoneTentacle.md) first), or be invited to it *as a guest*
 4. Take a full control of the Tentacle. You can **control the running app** as both guest and owner. Or **switch the running app** for another one or **trigger Tentacle share mode** as owner.  Both can be done from the Mobile Client or Cloud administration
 
 When starting *as a Developer* do the following:
 
-1. [Sign up](http://anemone.cloud/users/sign_up) for free on the Anemone platform website. Select your account avatar while doing so *(by a name of the icon only - that is only way which contains the real fun!)*
-2. Download the **Mobile Client app for iOS or Android** (you can find links to apps on our website [http://anemone.cloud](http://anemone.cloud))
-3. [Build](TODO) a **Tentacle**. Every real developer has its own Tentacle 
-4. [Make an Anemone app](TODO). Prepare the *interface.json*, *manifest.json* and *arduino sketch* .hex files for your application. Login to the cloud administration **and add your first Anemone app**
+1. [Sign up](http://www.anemone.cloud/users/sign_up) for free on the Anemone platform website. Select your account avatar while doing so *(by a name of the icon only - that is only way which contains the real fun!)*
+2. Download the **Mobile Client app for iOS or Android** (you can find links to apps on our website [http://www.anemone.cloud](http://www.anemone.cloud))
+3. [Build](https://github.com/ceskasporitelna/anemone/blob/master/documentation/HowToBuildAnemoneTentacle.md) a **Tentacle**. Every real developer has its own Tentacle 
+4. [Make an Anemone app](https://github.com/ceskasporitelna/anemone/blob/master/documentation/HowToMakeAnemoneApp.md). Prepare the *interface.json*, *manifest.json* and *arduino sketch* .hex files for your application. Login to the cloud administration **and add your first Anemone app**
 5. **Install the app on your Tentacle** via *OTA* from cloud administration (by pressing a Install button)
 5. **Test the app** on your Tentacle when being in a *sandbox* mode.
 6. **Submit the app for approval** to the public apps repository via button in the cloud administration
@@ -296,16 +312,16 @@ When starting *as a Developer* do the following:
 
 ## I want more of it! - What to do next?
 
-1. Check out our [website](http://anemone.cloud)
-2. [Sign up](http://anemone.cloud/users/sign_up) for free and [download the Mobile Client](http://anemone.cloud)
-3. Read the [How to build Anemone Tentacle](TODO) tutorial
-4. Read the [How to make Anemone App](TODO) tutorial, or directly
+1. Check out our [website](http://www.anemone.cloud)
+2. [Sign up](http://www.anemone.cloud/users/sign_up) for free and [download the Mobile Client](http://www.anemone.cloud)
+3. Read the [How to build Anemone Tentacle](https://github.com/ceskasporitelna/anemone/blob/master/documentation/HowToBuildAnemoneTentacle.md) tutorial
+4. Read the [How to make Anemone App](https://github.com/ceskasporitelna/anemone/blob/master/documentation/HowToMakeAnemoneApp.md) tutorial, or directly
 	1. [How to define Anemone App Logic in manifest.json](TODO)
 	2. [How to define Anemone App User Interface in interface.json](TODO)
 	3. [How to create Anemone App Sketch in Arduino IDE](TODO)
-5. Read the [How to make Anemone Connector](TODO) tutorial
-6. You may be also interested in a [Anemone Apps Repository](TODO), [List of available Anemone Connectors](TODO) and [Anemone Libraries documentation](TODO)
-7. Explore the "Juicy Day" [example Anemone App on our GitHub](TODO)
+5. Read the [How to make Anemone Connector](https://github.com/ceskasporitelna/anemone/blob/master/documentation/HowToMakeAnemoneConnector.md) tutorial
+6. You may be also interested in the [Anemone Apps Repository](https://github.com/ceskasporitelna/anemone/tree/master/apps), [List of available Anemone Connectors](https://github.com/ceskasporitelna/anemone/tree/master/connectors) and [Anemone Arduino Library documentation](https://github.com/ceskasporitelna/anemone/tree/master/toolkit/anemone-arduino-library)
+7. Explore the "Juicy Day" [example Anemone App on our GitHub](https://github.com/ceskasporitelna/anemone/tree/master/apps/juicy-day)
 8. Write us. Tweet about us, write on Facebook, make a blogpost. Use hashtag **#anemoneCloud**.
 
 ## Who Is Behind This?
@@ -331,16 +347,16 @@ For their great effort we owe a BIG thank to the following people and entities f
 * *Šimon Kautský* for the development of Anemone Mobile Client app both for iOS and Android in Unity3D and for solving all these ugly platform specific bugs.
 * *Filip Bursík* for the development of Arduino part of Anemone platform in C and for all those dreamless nights when the program did not fit the small Arduino YÚN memory.
 * *Michal Mlejnek* for the huge amount of Anemone Tentacle 3D case model iterations in Blender - including the final one which you can print and enjoy.
-* *Jana Moudrá* for coding the Anemone platform presentational website (the one at [http://anemone.cloud](http://anemone.cloud)). Fully responsive with all the cute JS features.
-* *Honza Sechovec* for the vision, guidance and mainly for the patience. The development of the platform took a lot longer than expected, but the result is worth it.
-* *Tomáš Jukin* for the platform architecture and the fact that all the stuff fits well together. And for the ugly electronics stuff, the documentation, slicing, soldering and 3D printing.
+* *Jana Moudrá* for coding the Anemone platform presentational website (the one at [http://www.anemone.cloud](http://www.anemone.cloud)). Fully responsive with all the cute JS features.
+* *Honza Sechovec* for the vision, guidance and mainly for the patience. The development of the platform took a bit longer than expected, but the result is worth it.
+* *Tomáš Jukin* for the platform architecture and the fact that all the stuff fits well together. And for the ugly electronical stuff, the documentation, slicing, soldering and 3D printing.
 * *Kanárek* (which is a [Prusa3D i3 MK2 3D printer](http://www.prusa3d.cz/#i3-printer)) for printing every single iteration of the Anemone Tentacle 3D case model and still work.
 
 ## How can I contribute?
 
-1. Join the platform! Either as a User or Developer, you can join the Anemone platform and explore the world of IoT in a fun way. See [http://anemone.cloud](http://anemone.cloud).
+1. Join the platform! Either as a User or Developer, you can join the Anemone platform and explore the world of IoT in a fun way. See [http://www.anemone.cloud](http://www.anemone.cloud).
 2. Spread the word! I you know somebody who might be interested in our platform invite him ale show him your Tentacle.
-3. Make your own apps based on [manual](TODO).
+3. Make your own apps based on [manual](https://github.com/ceskasporitelna/anemone/blob/master/documentation/HowToMakeAnemoneApp.md).
 4. Make new connectors and submit them as pull requests to this repository.
 5. Interested in serious development? Wanna extend the platform itself? Contact Honza at honza@flexer.cz.
 
@@ -358,11 +374,11 @@ For their great effort we owe a BIG thank to the following people and entities f
 
 ### How can I build a Tentacle?
 
-> Just follow our [manual](TODO). It includes a *part list* and even a *model of cute case* which can be 3D printed! All the difficult stuff is done, what remains are just the fun parts ;).
+> Just follow our [manual](https://github.com/ceskasporitelna/anemone/blob/master/documentation/HowToBuildAnemoneTentacle.md). It includes a *part list* and even a *model of cute case* which can be 3D printed! All the difficult stuff is done, what remains are just the fun parts ;).
 
 ## Terms and License
 
-This software is licensed under [MIT license](TODO).
+This software is licensed under [MIT license](https://github.com/ceskasporitelna/anemone/blob/master/LICENSE.md).
 
 <img alt="Anemone Tentacle" src="https://github.com/ceskasporitelna/anemone/raw/master/documentation/images/tentacle_gloss.png" width="300">
 
