@@ -1,3 +1,3 @@
-# Anemone Connectors List
+# Anemone Cloud Connectors List
 
 TODO
