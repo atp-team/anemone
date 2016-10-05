@@ -1,4 +1,9 @@
-<img alt="Anemone Platform" src="https://github.com/ceskasporitelna/anemone/raw/master/documentation/images/anemone_logo.png" width="100">
+<style>
+  img {border: 1px solid silver;}
+  img.icon {border: none;}
+</style>
+
+<img class="icon" alt="Anemone Platform" src="https://github.com/ceskasporitelna/anemone/raw/master/documentation/images/anemone_logo.png" width="100">
 
 > "Look at you hacker, in order to use me, you must understand first." -- Anemone
 
