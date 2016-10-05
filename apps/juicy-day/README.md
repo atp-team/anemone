@@ -1,3 +1,3 @@
-# JuicyDay Anemone App
+# Juicy Day Anemone App
 
 TODO
