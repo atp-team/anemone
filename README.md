@@ -1,8 +1,3 @@
-<style>
-  img {border: 1px solid silver;}
-  img.icon {border: none;}
-</style>
-
 <img class="icon" alt="Anemone Platform" src="https://github.com/ceskasporitelna/anemone/raw/master/documentation/images/anemone_logo.png" width="100">
 
 > "Look at you hacker, in order to use me, you must understand first." -- Anemone
@@ -41,7 +36,7 @@ Anemone has three main parts:
 
 **Mobile Client** is iOS and Android application which allows you to manage *Tentacles* and control *Anemone Apps*. You can download it for free from Apple AppStore and Google Play Store. Both links are on our website [http://www.anemone.cloud](http://www.anemone.cloud).
 
-<img alt="Anemone Mobile Client - List of Tentacles" src="https://github.com/ceskasporitelna/anemone/raw/master/documentation/images/mobile_client_1_tentacles_list.png" width="300"> <img alt="Anemone Mobile Client - Tentacle Detail" src="https://github.com/ceskasporitelna/anemone/raw/master/documentation/images/mobile_client_2_tentacle_detail.png" width="300">
+<img style="border: 1px solid silver;" alt="Anemone Mobile Client - List of Tentacles" src="https://github.com/ceskasporitelna/anemone/raw/master/documentation/images/mobile_client_1_tentacles_list.png" width="300"> <img alt="Anemone Mobile Client - Tentacle Detail" src="https://github.com/ceskasporitelna/anemone/raw/master/documentation/images/mobile_client_2_tentacle_detail.png" width="300">
 
 **Cloud** is the final component of the platform which connects the Tentacles to the Mobile Client. But that is not all. The Anemone Cloud can connect both the Mobile Client and Tentacles to other API service in the internet using **Connectors**.
 
