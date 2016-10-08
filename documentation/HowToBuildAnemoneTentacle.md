@@ -4,6 +4,8 @@ Anemone Tentacle is a DIY Open Hardware device you can build and 3D print a cute
 
 > Tentacle is fully Open Hardware device based on Arduino YÚN and Arduino TFT Display. It can be used as part of [Anemone Platform](http://www.anemone.cloud) or completelly standalone as a nice case for Arduino YÚN and Arduino TFT display.
 
+[toc]
+
 ## How Tentacle looks like?
 
 TODO 2 images
@@ -39,25 +41,32 @@ In order to build a Tentacle you will need the following active components:
 
 * 1x [Arduino YÚN](https://www.arduino.cc/en/Main/ArduinoBoardYun)
 * 1x [Arduino TFT LCD Display](https://www.arduino.cc/en/Main/GTFT)
-* 1x [Rotary Encoder KY-040](http://henrysbench.capnfatz.com/henrys-bench/arduino-sensors-and-input/keyes-ky-040-arduino-rotary-encoder-user-manual/) (used as *menu knob*)
+* 1x [Rotary Encoder KY-040](http://henrysbench.capnfatz.com/henrys-bench/arduino-sensors-and-input/keyes-ky-040-arduino-rotary-encoder-user-manual/) (used as a *menu knob*)
 * 1x [Buzzer YL-44](https://rydepier.wordpress.com/2015/05/24/active-buzzer-alarm/)
-* 1x [Microswitch TC-0108-T](https://www.gmelectronic.com/tc-0108-t) (used as *cloud button*)
-* 1x [Red Switch P-PB303B](https://www.gmelectronic.com/p-pb303b-red) (used as *back button*)
-* 2x [Green Super Flux LED 913PG2C](https://www.gmelectronic.com/super-flux-led-sfl-pure-green-2000-110-130) (used as *back button backlight*)
-* 2x [Optocoupler BPC-817C](https://www.gmelectronic.com/bpc-817c) (or similar working with 5V input/output voltage)
+* 1x [Microswitch TC-0108-T](https://www.gmelectronic.com/tc-0108-t) (used as a *cloud button*)
+* 1x [Red Switch P-PB303B](https://www.gmelectronic.com/p-pb303b-red) (used as a *back button*)
+* 2x [Green Super Flux LED 913PG2C](https://www.gmelectronic.com/super-flux-led-sfl-pure-green-2000-110-130) (used as a *back button backlight*)
+* 2x [Optocoupler BPC-817C](https://www.gmelectronic.com/bpc-817c) *(or similar working with 5V input/output voltage)*
 * 2x Resistor 220 Ohm
 * 2x Resistor 10 Kiloohm
+
+TODO image with all parts
 
 And the following passive parts:
 
 * 1x [Prototype Shield with Small Breadboard](https://goo.gl/QiYypK)
-* 1x [Stripboard TODOxTODO](TODO)
+* 1x [Stripboard Single Side PCB 5x7cm](https://goo.gl/bP6dKk)
+* 1x [RJ-11 Connector Box WEBP 6-4 LP 833-045](https://goo.gl/kE05f0) *(for I2C bus output)*
 * 1x [Insulated wire on coil 0,4mm/25m Blue](https://goo.gl/lk7bCX)
-* TODOx [Jumper Wire M-F 10cm](TODO)
-* TODOx [Jumper Wire M-F 20cm](TODO)
-* TODO holes
+* 1x [Breadboard Connectors PROSKIT OP-E351](https://goo.gl/8ECFLD)
+* 1x [Female Headers Row 40](https://goo.gl/bsTJQJ)
+* 1x [Male Headers Row 20 Straight](https://goo.gl/MwZm9u)
+* 1x [Male Headers Row 20 90-deg](https://goo.gl/N3jrON)
+* 15x [Jumper Wire M-F 10cm](https://goo.gl/9HJ0Yd)
+* 10x [Jumper Wire M-M 10cm](https://goo.gl/9HJ0Yd)
+* 3x [Jumper Wire M-F 20cm](https://goo.gl/QxP5vw)
 
-TODO image with all parts
+TODO image with cable parts
 
 ### Parts List
 
@@ -78,11 +87,18 @@ In order to make your life easier we have prepared a list of links where you can
 | 2x | Resistor 220 Ohm | - | - | 
 | 2x | Resistor 10 Kiloohm | - | - | 
 | 1x | Prototype Shield with Small Breadboard | https://goo.gl/Pvyxjw | https://goo.gl/QiYypK | €1.00 |
-| 1x |  | - | - | 
+| 1x | Stripboard Single Side PCB 5x7cm | https://goo.gl/zTTTuU | https://goo.gl/bP6dKk | €1.26 |
+| 1x | RJ-11 Connector Box WEBP 6-4 LP 833-045 | https://goo.gl/p4YbLA | https://goo.gl/kE05f0 | €0.25 |
 | 1x | Insulated wire on coil 0,4mm/25m Blue | https://goo.gl/AbCSSo | https://goo.gl/lk7bCX | €2.20 |
+| 1x | Breadboard Connectors PROSKIT OP-E351 | https://goo.gl/OA5zfP | https://goo.gl/8ECFLD | €12.29 |
+| 1x | Female Headers Row 40 | https://goo.gl/Ps4XRd | https://goo.gl/bsTJQJ | €0.34 |
+| 1x | Male Headers Row 20 Straight | https://goo.gl/Dz5Kux | https://goo.gl/MwZm9u | €0.23 |
+| 1x | Male Headers Row 20 90-deg | https://goo.gl/94bT0B | https://goo.gl/N3jrON | €0.34 |
+| 1x | Jumper Cables M-M, M-F, F-F, 40pcs, 10cm | https://goo.gl/WffkiF | https://goo.gl/9HJ0Yd | €3.45 |
+| 1x | Jumper Cables M-M, M-F, F-F, 40pcs, 20cm | https://goo.gl/buLGLN | https://goo.gl/QxP5vw | €2.17 |
 | | | | **Total** | **X** |
 
-**The Anemone platform (as well as the Tentacle) has been developed with love in [Prague](https://goo.gl/maps/gx7orLWymPA2), so people from our country have special buying column ;).*
+**The Anemone platform (as well as the Tentacle) has been developed with love in [Prague](https://goo.gl/maps/gx7orLWymPA2), so people from our country have special buying options column ;)*
 
 > You can download the [Anemone Tentacle parts list as CSV file](TODO) or as [PDF file](TODO).
  
@@ -149,7 +165,7 @@ TODO image with arrows and part names
 
 ### Slicing
 
-The Anemone Tentacle 3D case is available either as [.stl files of individual components](TODO):
+The Anemone Tentacle 3D case is available either as [.stl files of 9 individual components](TODO):
 
 * The Bottom Part
 * The Walls
@@ -159,13 +175,15 @@ The Anemone Tentacle 3D case is available either as [.stl files of individual co
 * The Menu Knob Cover
 * The Front Button
 * The Top (LEGO® compatible) cover
-* 
+* The Front Display Frame
 
 Or as three [*ready-to-print* .stl files](TODO) with all components assigned into three groups *(with slightly different print settings)* :
 
 1. Bottom and Insides
 2. Walls
 3. Top and Display covers
+
+> In addition to the [.stl *ready-to-print* file for every print group](TODO) you can download a exported [gcode files for the *Prusa i3 MK2 3D Printer* with ABS filament setting](TODO). We have use these gcode files to print our version of Anemone Tentacle on *Kanárek*. 
 
 #### Bottom and Insides
 
@@ -189,18 +207,44 @@ The last print group contains the top LEGO® compatible cover piece and display 
 
 The Anemone Tentacle case is optimized **to be printed in ABS** *(but theoretically should print well with PLA too)*.
 
-Detailed print settings are slightly different for each of the three recommended print groups:
+We have used the [Slic3r](http://slic3r.org/) for slicing the `.stl` files into `.gcode`.
+
+> Anemone Tentacle case looks awesome even on low print settings - which looks nice with a semi-transparent filament.
+
+#### Global settings
+
+* Filament: **ABS 1.75mm**
+* Extruder Temperature: **255°C**
+* Heatbed Temperature: **100°C**
+* Layer height: **0.35mm**
+* First layer height: **0.15mm**
+* Perimeters: **1**
+* Infill density: **15%**
+* Infill pattern: **Honeycomb**
+* Skirt: **1**
+* Brim: **0mm**
+* Support: **No**
+
+#### Detailed settings
+
+Detailed settings are slightly different for each of the three recommended print groups **(only the attributes different from the global settings are shown)**:
 
 1. Bottom and Insides
+	* Infill density: **20%** 
 2. Walls
+	* Brim: **5mm**
+	* Support: **Yes**
+	* Support Pattern: **Pillars**
 3. Top and Display covers
+	* Infill density: **20%** 
+	* Perimeters: **5**
 
 ### Tips and Tricks
 
 * When printing with ABS you HAVE TO to use the heated bed!
 * The second print group (The Walls) **needs to have brim** which helps the print to stay connected to bed and not bend while printing (we use 5mm).
-* The second print group (The Walls) **needs to be printed with supports** (we recommend pillars type if you use Slic3r).
-* Best infill type is honeycomb which even helps to achieve the nice light reflecting effects with a semi-transparent filament.
+* The second print group (The Walls) **needs to be printed with supports** (we recommend **pillars** type if you use [Slic3r](http://slic3r.org/)).
+* Best infill type is Honeycomb with 15% density for The Walls part which even helps to achieve the nice light reflecting effects with a semi-transparent filament.
 
 ### How it looks 3D printed
 
