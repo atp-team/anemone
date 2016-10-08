@@ -158,7 +158,7 @@ The Anemone Tentacle 3D case is available either as [.stl files of individual co
 * The Top Button Lever
 * The Menu Knob Cover
 * The Front Button
-* The Top (LEGO^® compatible) cover
+* The Top (LEGO® compatible) cover
 * 
 
 Or as three [*ready-to-print* .stl files](TODO) with all components assigned into three groups *(with slightly different print settings)* :
@@ -183,7 +183,7 @@ The second print group is the case walls.
 
 TODO image 3D model in slic3r - part3 - top and display covers
 
-The last print group contains the top LEGO^® compatible cover piece and display frame cover.
+The last print group contains the top LEGO® compatible cover piece and display frame cover.
 
 ### Recommended print settings
 
@@ -208,7 +208,7 @@ Detailed print settings are slightly different for each of the three recommended
 
 TODO printed tentacle 4 IMAGES
 
-Because the top of the Anemone Tentacle is LEGO^® compatible, you can customize your Tentacle to fit your desires with the world most famous building kit.
+Because the top of the Anemone Tentacle is LEGO® compatible, you can customize your Tentacle to fit your desires with the world most famous building kit.
 
 TODO 2 Tentacle images with LEGO build on them
 
@@ -259,4 +259,4 @@ In general, do not miss the following:
 6. Explore the "Juicy Day" [example Anemone App on our GitHub](https://github.com/ceskasporitelna/anemone/tree/master/apps/juicy-day)
 7. Write us. Tweet about us, write on Facebook, make a blogpost. Use hashtag **#anemoneCloud**.
 
-LEGO^® is a trademark of the LEGO Group of companies which does not sponsor, authorize or endorse this site ([trademark guidelines](http://www.lego.com/en-us/legal/legal-notice/fair-play)).
+LEGO® is a trademark of the LEGO Group of companies which does not sponsor, authorize or endorse this site ([trademark guidelines](http://www.lego.com/en-us/legal/legal-notice/fair-play)).
