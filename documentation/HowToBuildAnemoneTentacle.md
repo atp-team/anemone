@@ -115,7 +115,8 @@ Regarding the tools needed, we would recommend the following:
 
 > If you plan to use Tentacle just readonly, there is a way to build what we call "a minimal Tentacle". Which is a striped version of Tentacle which consist only from Arduino YÚN, TFT display and a *cloud button*.
 
-TODO image if wiring of minimal Tentacle
+TODO image of wiring of minimal Tentacle
+TODO image of scheme of minimal Tentacle
 
 With minimal Tentacle, you will not be able to use Tentacle fully, but it is enought to use it in readonly mode. And it still retains the share to guests functionality.
 
@@ -136,11 +137,25 @@ For a minimal Tentacle, you will need the following:
 | 1x | Resistor 220 Ohm | - | - | 
 | 1x | Resistor 10 Kiloohm | - | - | 
 | 1x | Jumper Cables M-M, M-F, F-F, 40pcs, 20cm | https://goo.gl/buLGLN | https://goo.gl/QxP5vw | €2.17 |
-| | | | **Total** | **€114,84** |
+| | | | **Total** | **€91,70** |
 
 > You can download the [Minimal Tentacle parts list as CSV file](TODO) or as [PDF file](TODO).
 
 ## Step 2 - Build Tentacle electronic circuits
+
+The completed Anemone Tentacle electronic circuit should look like this:
+
+<img class="icon" alt="Anemone Tentacle - Electrical Circuit Wiring" src="https://github.com/ceskasporitelna/anemone/blob/master/documentation/images/anemone_tentacle_breadboard.png?raw=true" width="600">
+
+it's scheme is the following:
+
+<img class="icon" alt="Anemone Tentacle - Electrical Circuit Scheme" src="https://github.com/ceskasporitelna/anemone/blob/master/documentation/images/anemone_tentacle_prototype_scheme.png?raw=true" width="600">
+
+In order to understand it better, we have created a simplified wiring image as well. In this image we have removed all passive components (like a prototype shield or stripboard) and have replaced them by a classic breadboard.
+
+<img class="icon" alt="Anemone Tentacle - Simplified Electrical Circuit Wiring" src="https://github.com/ceskasporitelna/anemone/blob/master/documentation/images/anemone_tentacle_prototype_breadboard.png?raw=true" width="600">
+
+Below we will show you the Anemone Tentacle wiring construction step by step.
 
 TODO...
 
