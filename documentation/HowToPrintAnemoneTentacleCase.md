@@ -1,4 +1,4 @@
-# How to print Anemone Tentacle Case
+# How to 3D print Anemone Tentacle Case
 
 In this tutorial, we will guide you throught the 3D printing the *Anemone Tentacle case*.
 
