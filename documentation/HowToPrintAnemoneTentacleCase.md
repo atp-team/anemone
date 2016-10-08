@@ -37,7 +37,7 @@ The Anemone Tentacle 3D case is available either as [.stl files of 9 individual 
 * The Top Button Lever
 * The Menu Knob Cover
 * The Front Button
-* The Top (LEGO® compatible) cover
+* The Top *(LEGO® compatible)* cover
 * The Front Display Frame
 
 Or as three [*ready-to-print* .stl files](TODO) with all components assigned into three groups *(with slightly different print settings)* :
