@@ -4,8 +4,6 @@ Anemone Tentacle is a DIY Open Hardware device you can build and 3D print a cute
 
 > Tentacle is fully Open Hardware device based on Arduino YÚN and Arduino TFT Display. It can be used as part of [Anemone Platform](http://www.anemone.cloud) or completelly standalone as a nice case for Arduino YÚN and Arduino TFT display.
 
-[toc]
-
 ## How Tentacle looks like?
 
 TODO 2 images
