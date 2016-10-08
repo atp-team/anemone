@@ -20,9 +20,9 @@ Anemone ecosystem consists of:
   * **Anemone Mobile Client** iOS & Android apps (you can download them from [www.anemone.cloud](http://www.anemone.cloud))
   * [Anemone Tentacle](https://github.com/ceskasporitelna/anemone/blob/master/documentation/HowToBuildAnemoneTentacle.md) open hardware device you can build and 3D print
 * [Anemone Documentation](https://github.com/ceskasporitelna/anemone/tree/master/documentation) where you can read everything you need to know
-* [Anemome Toolkit](https://github.com/ceskasporitelna/anemone/tree/master/toolkit) which you need in order to create a Tentacle or build Anemone App
-* [Anemome Apps Repository](https://github.com/ceskasporitelna/anemone/tree/master/apps)
-* [Anemome Cloud Connectors List](https://github.com/ceskasporitelna/anemone/tree/master/connectors)
+* [Anemone Toolkit](https://github.com/ceskasporitelna/anemone/tree/master/toolkit) which you need in order to create a Tentacle or build Anemone App
+* [Anemone Apps Repository](https://github.com/ceskasporitelna/anemone/tree/master/apps)
+* [Anemone Cloud Connectors List](https://github.com/ceskasporitelna/anemone/tree/master/connectors)
 
 More information about the Anemone Platform are provided below.
 
