@@ -50,17 +50,16 @@ The *Cloud*, *Mobile Client* and *Tentacle* together form a platform where **Ane
 
 And *Anemone Apps* are here for you *to use them*, *to develop them* and mainly **to have some fun with them**.
 
-### Used technologies
+## What can be achieved with the platform?
 
-> "They say great science is built on the shoulders of giants." -- Cave Johnson
+With Anemone Platform you can do the following:
 
-Anemone Platform is build using well known technologies you should not miss. 
+* You can display textual information from the the Anemone Cloud on Tentacle display *(information is stored inside variables in the cloud component of Anemone app)*
+* Tentacle can change value of variable of it's app cloud component (eg. when some button on the Tentacle is pressed or when some data is measured)
+* You can create so called "Anemone Apps" which contains variable which can be shown on Tentacle display and/or in the Mobile Client app. For you can let user enter some data using his mobile phone, adjust this data in the cloud and show result on the Tentacle. Or you can let user interact with the Tentacle and process this interaction in the cloud and show the result in the mobile app.
+* The platform is done in a way that owner of a Tentacle can share it to his friend or change the running Anemone App using the OTA *(Over-The-Air)* update.
 
-* Anemone Tentacle is an Open Hardware device build around on the Arduino YÚN and Arduino TFT Display.
-* Anemone Cloud is created using Ruby on Rails
-* Anemone Mobile Client is programmed in Unity
-
-<img alt="Arduino YÚN" src="https://github.com/ceskasporitelna/anemone/raw/master/documentation/images/fritzing-arduino-yun.png" width="100"> <img alt="Arduino TFT Display" src="https://github.com/ceskasporitelna/anemone/raw/master/documentation/images/fritzing-arduino-tft.png" width="100"> <img alt="Open Hardware" src="https://github.com/ceskasporitelna/anemone/raw/master/documentation/images/open_hardware.png" width="60"> <img alt="Ruby" src="https://github.com/ceskasporitelna/anemone/raw/master/documentation/images/ruby.png" width="60"> <img alt="Rails" src="https://github.com/ceskasporitelna/anemone/raw/master/documentation/images/rails.png" width="60"> <img alt="Unity" src="https://github.com/ceskasporitelna/anemone/raw/master/documentation/images/unity.png" width="60">
+> The **Anemone Platform is completely OPEN**. Everybody can [became a user by signing up for free](TODO). Every user can either receive a guest access or can [build his own](TODO) Tentacle. To a Tentacle he can then install some apps from our [public repository of Anemone Apps](https://github.com/ceskasporitelna/anemone/tree/master/apps) or he can [create his own app](TODO).
 
 ## How it works? 
 
@@ -334,9 +333,7 @@ Anemone has been created with love in Prague.
 
 In case of any question or issue, feel free to add a GitHub Issue in this repository.
 
-
 <a href="http://www.juicymo.cz"><img alt="Juicymo - Mobile Apps Development" src="https://github.com/ceskasporitelna/anemone/raw/master/documentation/images/juicymo.png" width="100"></a>
-
 
 ### Special thanks
 
@@ -352,6 +349,18 @@ For their great effort we owe a BIG thank to the following people and entities f
 * *Tomáš Jukin* for the platform architecture and the fact that all the stuff fits well together. And for the ugly electronical stuff, the documentation, slicing, soldering and 3D printing.
 * *Kanárek* (which is a [Prusa3D i3 MK2 3D printer](http://www.prusa3d.cz/#i3-printer)) for printing every single iteration of the Anemone Tentacle 3D case model and still work.
 
+### Used technologies
+
+> "They say great science is built on the shoulders of giants." -- Cave Johnson
+
+Anemone Platform is build using well known technologies you should not miss. 
+
+* Anemone Tentacle is an Open Hardware device build around on the Arduino YÚN and Arduino TFT Display.
+* Anemone Cloud is created using Ruby on Rails
+* Anemone Mobile Client is programmed in Unity
+
+<img alt="Arduino YÚN" src="https://github.com/ceskasporitelna/anemone/raw/master/documentation/images/fritzing-arduino-yun.png" width="100"> <img alt="Arduino TFT Display" src="https://github.com/ceskasporitelna/anemone/raw/master/documentation/images/fritzing-arduino-tft.png" width="100"> <img alt="Open Hardware" src="https://github.com/ceskasporitelna/anemone/raw/master/documentation/images/open_hardware.png" width="60"> <img alt="Ruby" src="https://github.com/ceskasporitelna/anemone/raw/master/documentation/images/ruby.png" width="60"> <img alt="Rails" src="https://github.com/ceskasporitelna/anemone/raw/master/documentation/images/rails.png" width="60"> <img alt="Unity" src="https://github.com/ceskasporitelna/anemone/raw/master/documentation/images/unity.png" width="60">
+
 ## How can I contribute?
 
 1. Join the platform! Either as a User or Developer, you can join the Anemone platform and explore the world of IoT in a fun way. See [http://www.anemone.cloud](http://www.anemone.cloud).
@@ -361,6 +370,24 @@ For their great effort we owe a BIG thank to the following people and entities f
 5. Interested in serious development? Wanna extend the platform itself? Contact Honza at honza@flexer.cz.
 
 ## FAQ
+
+### I pluged my Tentacle, but it has blank screen and it "is not doing anything". How to solve this?
+
+> Arduino YÚN is a terribly slow device. So when you turn it on (typicaly by plugining in the USB cable), it will just turn on the green LED an do nothing. In this time the Arduino YÚN Linux/WiFi part is booting up. When this will finish, the ÝUN will turn on a white LED. And this is the moment when it will start the Arduino sketch ans hence your Anemone App as well.
+> 
+> After the initial setup a so called "Initial Arduino Sketch" is installed on your Tentacle by the tentacle.sh script you have downloaded from the Anemone Cloud Admin. This sketch just shows the "Ready for app install" text and image.
+> 
+> <img alt="Anemone Tentacle UI - Ready for app installation" src="https://github.com/ceskasporitelna/anemone/raw/master/documentation/images/app_ready_for_installation.png">
+> 
+> After 60 seconds, the "Initial Arduino Sketch" will try to perform an OTA update.
+> 
+> Because the hardware limitations of the Arduino YÚN *(especially the way how the SPI bus is wired to the ICSP pins on YÚN)*, the TFT screen needs to be turned off prior an OTA update. This is why the screen goes black when OTA update is in progress.
+> 
+> And because Arduino YÚN is quite slow, the OTA update can take up to 5 minutes event on fast internet connection.
+> 
+> So the solution of this is **just wait till the OTA update will complete**. Your app will run after it.*
+
+**We know that this is not the best user-friendly behavior and we are working on a possible solution which could make this better in future. So have crossed for us fingers...*
 
 ### How can I connect to a Tentacle as a Guest?
 
