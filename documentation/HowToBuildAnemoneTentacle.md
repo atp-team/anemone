@@ -115,8 +115,7 @@ Regarding the tools needed, we would recommend the following:
 
 > If you plan to use Tentacle just readonly, there is a way to build what we call "a minimal Tentacle". Which is a striped version of Tentacle which consist only from Arduino YÚN, TFT display and a *cloud button*.
 
-TODO image of wiring of minimal Tentacle
-TODO image of scheme of minimal Tentacle
+<img class="icon" alt="Anemone Minimal Tentacle - Wiring" src="https://github.com/ceskasporitelna/anemone/blob/master/documentation/images/anemone_tentacle_minimal_breadboard.png?raw=true" width="300"> <img class="icon" alt="Anemone Minimal Tentacle - Wiring" src="https://github.com/ceskasporitelna/anemone/blob/master/documentation/images/anemone_tentacle_minimal_scheme.png?raw=true" width="300">
 
 With minimal Tentacle, you will not be able to use Tentacle fully, but it is enought to use it in readonly mode. And it still retains the share to guests functionality.
 
@@ -154,6 +153,10 @@ it's scheme is the following:
 In order to understand it better, we have created a simplified wiring image as well. In this image we have removed all passive components (like a prototype shield or stripboard) and have replaced them by a classic breadboard.
 
 <img class="icon" alt="Anemone Tentacle - Simplified Electrical Circuit Wiring" src="https://github.com/ceskasporitelna/anemone/blob/master/documentation/images/anemone_tentacle_prototype_breadboard.png?raw=true" width="600">
+
+In addition we have created an image where the `VCC` is shown as a **Red wire** and `GND` as a **Black wire**.
+
+<img class="icon" alt="Anemone Tentacle - Simplified Electrical Circuit Wiring VCC GND" src="https://github.com/ceskasporitelna/anemone/blob/master/documentation/images/anemone_tentacle_prototype_breadboard_VCC_GND.png?raw=true" width="600">
 
 Below we will show you the Anemone Tentacle wiring construction step by step.
 
