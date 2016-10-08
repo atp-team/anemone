@@ -150,7 +150,7 @@ it's scheme is the following:
 
 <img class="icon" alt="Anemone Tentacle - Electrical Circuit Scheme" src="https://github.com/ceskasporitelna/anemone/blob/master/documentation/images/anemone_tentacle_prototype_scheme.png?raw=true" width="600">
 
-In order to understand it better, we have created a simplified wiring image as well. In this image we have removed all passive components (like a prototype shield or stripboard) and have replaced them by a classic breadboard.
+In order to understand it better, we have created a simplified wiring image as well. In this image we have removed all passive components *(like a prototype shield or stripboard)* and have replaced them by a classic breadboard.
 
 <img class="icon" alt="Anemone Tentacle - Simplified Electrical Circuit Wiring" src="https://github.com/ceskasporitelna/anemone/blob/master/documentation/images/anemone_tentacle_prototype_breadboard.png?raw=true" width="600">
 
@@ -158,7 +158,7 @@ In addition we have created an image where the `VCC` is shown as a **Red wire** 
 
 <img class="icon" alt="Anemone Tentacle - Simplified Electrical Circuit Wiring VCC GND" src="https://github.com/ceskasporitelna/anemone/blob/master/documentation/images/anemone_tentacle_prototype_breadboard_VCC_GND.png?raw=true" width="600">
 
-Below we will show you the Anemone Tentacle wiring construction step by step.
+Below we will explain the Anemone Tentacle wiring construction step by step.
 
 TODO...
 
@@ -189,17 +189,79 @@ Before connecting your Arduino ÝUN to the USB for the first time and following 
 * https://www.arduino.cc/en/Main/ArduinoBoardYun
 * https://www.arduino.cc/en/Guide/ArduinoYun
 
-TODO https://www.arduino.cc/en/Tutorial/YunSysupgrade
+### Step 5.1 - Update Arduino YÚN OpenWRT image
 
-TODO
+We need to be sure to use the latest version of Arduino YÚN image. 
+Follow the instructions on https://www.arduino.cc/en/Tutorial/YunSysupgrade to install latest OpenWRT image on your Arduino YÚN.
+
+### Step 5.2 - Connect Arduino YÚN to Internet
+
+As a next step, make sure that your Arduino YÚN is connected to the internet - either by Wi-Fi or Ethernet.
+
+You can check if your Arduino YÚN is connected to Internet either from it's web control panel, or by SSHing to it and executing something like this:
+
+```bash
+ping www.google.com
+```
+
+or if you like you can verify connection to the *Anemone Cloud* by:
+
+```bash
+ping www.anemone.cloud
+```
 
 ## Step 6 - Connect Tentacle to Anemone Cloud
 
-TODO
+> Please check if your Tentacle is connected to Internet **before advancing in the tutorial**. You will not be able to do this step without having your Arduino YÚN connected to the Internet.
+
+### Step 6.1 - SSH to your Tentacle
+
+### Step 6.2 - Create new Tentacle on Anemone Cloud
+
+### Step 6.3 - Download `tentacle.sh` from Anemone Cloud
+
+### Step 6.4 - Run `tentacle.sh` on your Tentacle via SSH
+
+The Tentacle initialization script (`tentacle.sh`) will perform the following on your Tentacle:
+
+1. It will install the Ruby programming language on your Tentacle (which is needed by the Linux part of the [Anemone Arduino Library](https://github.com/ceskasporitelna/anemone/tree/master/toolkit/anemone-arduino-library))
+2. It will download all needed parts of the Anemone ecosystem from Anemone Cloud and install them on your Tentacle
+3. It will perform the OTA update and install the Initial Anemone sketch to your Tentacle
+4. It will register the newly created Tentacle with the Anemone Cloud
+
+After these steps will complete, your Tentacle is up and ready.
+
+<img alt="Anemone Tentacle UI - Ready for app installation" src="https://github.com/ceskasporitelna/anemone/raw/master/documentation/images/app_ready_for_installation.png">
+
+> While running the Tentacle initialization script (`tentacle.sh`) is printing to the console what it is currently doing. So you can check its progress in the SSH console of your Tentacle.
+> 
+> Please be patient, the **Arduino YÚN is a very slow device** and the first Tentacle initialization **can take up to 40 minutes**.
+> 
+> In case of problems or questions, please refer the [FAQ in Platform Overview](https://github.com/ceskasporitelna/anemone#faq).
+
+Arduino YÚN is able to **very often corrupt its memory and completely freeze**. *The Anemone platform is prepared to this* and in this case you can save the situation by performing the following:
+
+1. Try to SSH to your Tentacle, if that is still possible, run there the Tentacle initialization script (`tentacle.sh`) again (if you do not have it, feel free to download it again from Anemone Cloud). The `tentacle.sh` is designed to be [idempotent](https://en.wikipedia.org/wiki/Idempotence) *(which simply means that it is OK to run it multiple times)*. `tentacle.sh` will initialize the Tentacle once again, and once again will install the *Initial Sketch*. But after 60s in its update period the *Initial Sketch* will automatically detect that some Anemone App is already installed on the Tentacle and will automatically perform the OTA to it. And because the Anemone App state *(= its variables)* is always stored in Anemone Cloud, your app will be back up with all its data. This should solve you issue.
+2. If the hints from step 1. did not help *(probably because the Tentacle/Arduino YÚN is no longer responding to anything, including SSH)*, try to turn the Tentacle off and on (by cutting power to it - do not rely on the onboard reset buttons). When you plug it to power again, wait till the Arduino YÚN completes its booting - it will turn on the **white LED** on its surface - **it takes around 5 mins**. Now your Tentacle might resume its normal operations (that means that your Anemone App should boot up). If not, try if at least the SSH is working and follow instructions from step 1.
+3. If even hints from step 2. were not helpful, your Arduino YÚN went completely stuck *(this happened multiple times to us durring the development of the platform ;))*. In this case nothing else than a **YÚN linux image reset** will help you. Follow instructions on the [official tutorial how to reset Arduino YÚN linux image](https://www.arduino.cc/en/Tutorial/YunSysupgrade). That usually helps. When done, follow with instructions from the step 1.
 
 ## Step 7 - *(Optional)* Install the "Juicy Day" example Anemone App on Tentacle
 
-TODO
+When your Tentacle is up and ready, you should see the following image on your Tentacle display:
+
+<img alt="Anemone Tentacle UI - Ready for app installation" src="https://github.com/ceskasporitelna/anemone/raw/master/documentation/images/app_ready_for_installation.png">
+
+Now you can open the *Anemone Cloud Administration* and from the list of apps select one app and install it to your Tentacle.
+
+After installing the app, you should be able to access the app's *User Interface* in the *Anemone Mobile Client* iOS or Android app on your smartphone.
+
+After 60s your Tentacle should initiate the *OTA update* and install the desired app. 
+
+> When performing the OTA update, Tentacle will turn off its display. **This is normal**. The OTA update will take some time to the slow Arduino YÚN. So if after 10s your Tentacle will still "look like unresponsive", don't panic and let it finish the OTA update. **It can take up to 5 minutes**. In case of issues, refer the [FAQ](https://github.com/ceskasporitelna/anemone#faq).
+
+After another 60s at the latest Tentacle should synchronize app variables with the Cloud.
+
+And now you are done ;).
 
 ## What next?
 
