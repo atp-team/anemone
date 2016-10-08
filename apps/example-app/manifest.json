@@ -1,0 +1,19 @@
+{
+  "platform": {
+    "appId": "example-app",
+    "driver": "anemone",
+    "type": "manifest",
+    "version": 1
+  },
+  "variables": {
+    
+  },
+  "bindings": {
+    "interface": {
+      
+    },
+    "connectors": {
+      
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "platform": {
+    "appId": "example-app",
+    "driver": "anemone",
+    "type": "interface",
+    "version": 1
+  },
+  "input": {
+    
+  },
+  "output": {
+    
+  }
+}
