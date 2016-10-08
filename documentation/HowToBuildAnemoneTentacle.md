@@ -70,7 +70,7 @@ And the following passive parts:
 
 In order to make your life easier we have prepared a list of links where you can buy all the Tentacle parts:
 
-> This is just a hint ;). All the parts are **Open Hardware** you can buy them in your favourite shop, local hardware store, etc. 
+> This is just a hint ;). All the parts are **Open Hardware** you can buy them in your favorite shop, local hardware store, etc. 
 
 | # | Part | Where to buy in Czech Republic* | Where to buy Worldwide |  Cost |
 |:------------- |:------------- |:---------------:|:-------------:| -------------:|
@@ -146,7 +146,7 @@ The completed Anemone Tentacle electronic circuit should look like this:
 
 <img class="icon" alt="Anemone Tentacle - Electrical Circuit Wiring" src="https://github.com/ceskasporitelna/anemone/blob/master/documentation/images/anemone_tentacle_breadboard.png?raw=true" width="600">
 
-it's scheme is the following:
+the scheme is the following:
 
 <img class="icon" alt="Anemone Tentacle - Electrical Circuit Scheme" src="https://github.com/ceskasporitelna/anemone/blob/master/documentation/images/anemone_tentacle_prototype_scheme.png?raw=true" width="600">
 
@@ -229,7 +229,7 @@ The Tentacle initialization script (`tentacle.sh`) will perform the following on
 3. It will perform the OTA update and install the Initial Anemone sketch to your Tentacle
 4. It will register the newly created Tentacle with the Anemone Cloud
 
-After these steps will complete, your Tentacle is up and ready.
+After these steps your Tentacle will be up and running.
 
 <img alt="Anemone Tentacle UI - Ready for app installation" src="https://github.com/ceskasporitelna/anemone/raw/master/documentation/images/app_ready_for_installation.png">
 
