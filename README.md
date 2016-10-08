@@ -59,7 +59,7 @@ With Anemone Platform you can do the following:
 * You can create so called "Anemone Apps" which contains variable which can be shown on Tentacle display and/or in the Mobile Client app. For you can let user enter some data using his mobile phone, adjust this data in the cloud and show result on the Tentacle. Or you can let user interact with the Tentacle and process this interaction in the cloud and show the result in the mobile app.
 * The platform is done in a way that owner of a Tentacle can share it to his friend or change the running Anemone App using the OTA *(Over-The-Air)* update.
 
-> The **Anemone Platform is completely OPEN**. Everybody can [became a user by signing up for free](TODO). Every user can either receive a guest access or can [build his own](TODO) Tentacle. To a Tentacle he can then install some apps from our [public repository of Anemone Apps](https://github.com/ceskasporitelna/anemone/tree/master/apps) or he can [create his own app](TODO).
+> The **Anemone Platform is completely OPEN**. Everybody can [became a user by signing up for free](http://www.anemone.cloud/users/sign_up). Every user can either receive a guest access or can [build his own](https://github.com/ceskasporitelna/anemone/blob/master/documentation/HowToBuildAnemoneTentacle.md) Tentacle. To a Tentacle he can then install some apps from our [public repository of Anemone Apps](https://github.com/ceskasporitelna/anemone/tree/master/apps) or he can [create his own app](https://github.com/ceskasporitelna/anemone/blob/master/documentation/HowToMakeAnemoneApp.md).
 
 ## How it works? 
 
@@ -371,9 +371,9 @@ Anemone Platform is build using well known technologies you should not miss.
 
 ## FAQ
 
-### I pluged my Tentacle, but it has blank screen and it "is not doing anything". How to solve this?
+### I plugged my Tentacle, but it has blank screen and it "is not doing anything". How to solve this?
 
-> Arduino YÚN is a terribly slow device. So when you turn it on (typicaly by plugining in the USB cable), it will just turn on the green LED an do nothing. In this time the Arduino YÚN Linux/WiFi part is booting up. When this will finish, the ÝUN will turn on a white LED. And this is the moment when it will start the Arduino sketch ans hence your Anemone App as well.
+> Arduino YÚN is a terribly slow device. So when you turn it on (typicaly by plugining in the USB cable), it will just turn on the green LED an do nothing. In this time the Arduino YÚN Linux/WiFi part is booting up. When this will finish, the ÝUN will turn on a white LED (this can took up to 5 mins). And this is the moment when it will start the Arduino sketch ans hence your Anemone App as well.
 > 
 > After the initial setup a so called "Initial Arduino Sketch" is installed on your Tentacle by the tentacle.sh script you have downloaded from the Anemone Cloud Admin. This sketch just shows the "Ready for app install" text and image.
 > 
