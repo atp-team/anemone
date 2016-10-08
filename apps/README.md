@@ -2,7 +2,7 @@
 
 Here you can find continuously updated list of all available Anemone Apps.
 
-## [Juicy Day](TODO)
+## [Juicy Day](https://github.com/ceskasporitelna/anemone/tree/master/apps/juicy-day)
 
 *Author: [Juicymo s.r.o.](http://www.juicymo.cz)*
 
@@ -18,7 +18,7 @@ As every Anemone App, even the Juicy Day Anemone App contains a functionality wh
 * Share mode can be cancelled any time by pressing a back button.
 * Every 60s the Tentacle is performing a synchronization with Anemone Cloud. In this moment it will sync values of all variables and check if there is a need to perform OTA update of installed Anemone App.
 
-## [Example App](TODO)
+## [Example App](https://github.com/ceskasporitelna/anemone/tree/master/apps/example-app)
 
 *Author: [Juicymo s.r.o.](http://www.juicymo.cz)*
 
