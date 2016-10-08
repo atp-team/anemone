@@ -20,7 +20,7 @@ TODO image
 
 ## That is nice! How to build it?
 
-In this tutorial we will guide you throught the Tentacle building process.
+In this tutorial we will guide you through the Tentacle building process.
 
 In order to build your very own Tentacle you need to do the following:
 
@@ -64,7 +64,7 @@ And the following passive parts:
 * 10x [Jumper Wire M-M 10cm](https://goo.gl/9HJ0Yd)
 * 3x [Jumper Wire M-F 20cm](https://goo.gl/QxP5vw)
 
-TODO image with cable parts
+<img class="icon" alt="Anemone Tentacle - Needed wires" src="https://github.com/ceskasporitelna/anemone/blob/master/documentation/images/tentacle_wire_parts.jpg?raw=true" width="300"> <img class="icon" alt="Anemone Tentacle - Needed tools" src="https://github.com/ceskasporitelna/anemone/blob/master/documentation/images/tentacle_passive_parts.jpg?raw=true" width="300">
 
 ### Parts List
 
@@ -108,6 +108,8 @@ Regarding the tools needed, we would recommend the following:
 * Leadless soldering iron
 * Tweezers *(for example a [set from VETUS](https://www.aliexpress.com/wholesale?catId=0&SearchText=vetus+tweezers+6pcs))*
 * [Third hand soldering iron stand](https://www.aliexpress.com/wholesale?catId=190405&SearchText=third+hand+soldering)
+
+<img class="icon" alt="Anemone Tentacle - Needed tools" src="https://github.com/ceskasporitelna/anemone/blob/master/documentation/images/tentacle_passive_parts.jpg?raw=true" width="300">
 
 ### Minimal Tentacle (optional)
 
