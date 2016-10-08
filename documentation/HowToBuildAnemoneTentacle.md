@@ -48,7 +48,7 @@ In order to build a Tentacle you will need the following active components:
 * 2x Resistor 220 Ohm
 * 2x Resistor 10 Kiloohm
 
-TODO image with all parts
+<img class="icon" alt="Anemone Tentacle - Needed parts" src="https://github.com/ceskasporitelna/anemone/blob/master/documentation/images/tentacle_all_parts.jpg?raw=true" width="600">
 
 And the following passive parts:
 
@@ -119,7 +119,7 @@ TODO image if wiring of minimal Tentacle
 
 With minimal Tentacle, you will not be able to use Tentacle fully, but it is enought to use it in readonly mode. And it still retains the share to guests functionality.
 
-TODO image with all minimal Tentacle parts
+<img class="icon" alt="Anemone Minimal Tentacle - Needed parts" src="https://github.com/ceskasporitelna/anemone/blob/master/documentation/images/tentacle_minimal_parts.jpg?raw=true" width="300">
 
 For a minimal Tentacle, you will need the following:
 
@@ -127,7 +127,16 @@ For a minimal Tentacle, you will need the following:
 
 #### Minimal Tentacle Parts List
 
-TODO table
+| # | Part | Where to buy in Czech Republic* | Where to buy Worldwide |  Cost |
+|:------------- |:------------- |:---------------:|:-------------:| -------------:|
+| 1x | Arduino YÚN | https://goo.gl/WWNbBz | https://goo.gl/zxKTJE | €68.20 |
+| 1x | Arduino TFT LCD Display | https://goo.gl/UJ5RQx | https://goo.gl/QMAZtW | €20.90 |
+| 1x | Microswitch TC-0108-T | https://goo.gl/ncyT34 | https://goo.gl/iff8Z7 | €0.13 |
+| 1x | Optocoupler BPC-817C | https://goo.gl/SSWsRn | https://goo.gl/BFo84T | €0.30 |
+| 1x | Resistor 220 Ohm | - | - | 
+| 1x | Resistor 10 Kiloohm | - | - | 
+| 1x | Jumper Cables M-M, M-F, F-F, 40pcs, 20cm | https://goo.gl/buLGLN | https://goo.gl/QxP5vw | €2.17 |
+| | | | **Total** | **€114,84** |
 
 > You can download the [Minimal Tentacle parts list as CSV file](TODO) or as [PDF file](TODO).
 
