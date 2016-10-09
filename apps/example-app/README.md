@@ -21,5 +21,3 @@ Example App is not using any variable.
 ## Connectors
 
 Example App is not using any connector.
-
-[back to the list of apps](https://github.com/ceskasporitelna/anemone/tree/master/apps)

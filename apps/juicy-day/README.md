@@ -37,5 +37,3 @@ Juicy Day is using 1 connector.
 | Name | Web Service | Input | Output |
 |:---- |:--------:|:--------------------:|:---------------------:|
 | [exchangeRate](https://github.com/ceskasporitelna/anemone/tree/master/connectors/exchange_rate) | [CSAS WebAPI](https://developers.csas.cz/) | varCostCzk | varCostEur, varCostUsd |
-
-[back to the list of apps](https://github.com/ceskasporitelna/anemone/tree/master/apps)
