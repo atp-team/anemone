@@ -297,7 +297,137 @@ TODO image of completed display board
 
 ### Step 2.3 - Tentacle electronic circuits assembly
 
-TODO...
+#### Step 2.3.1 - Tentacle Shield
+
+The Tentacle electronic circuits assembly starts with the **Tentacle Shield** we have prepared in *step 2.2.3*.
+
+<img alt="Anemone Tentacle - Assembly step 1 - Tentacle Shield" src="https://github.com/ceskasporitelna/anemone/blob/master/documentation/images/anemone_tentacle_build_1_tentacle_shield.png?raw=true" width="600">
+
+TODO add photo for step 1
+
+#### Step 2.3.2 - Arduino YÚN
+
+Next step is to connect the **Tentacle Shield** to **Arduino YÚN** with the headers (or legs) we have prepared in *step 2.2.1*.
+
+> Wires shown as **banded** are those you should add in this step.
+
+<img alt="Anemone Tentacle - Assembly step 2 - Arduino YÚN" src="https://github.com/ceskasporitelna/anemone/blob/master/documentation/images/anemone_tentacle_build_2_yun.png?raw=true" width="600">
+
+TODO add photo for step 2
+
+#### Step 2.3.3 - SPI from Arduino YÚN ICSP
+
+Next step is to wire **SPI bus from Arduino YÚN** ICSP headers to the breadboard on the *Tentacle Shield*.
+
+> Wires shown as **banded** are those you should add in this step.
+
+<img alt="Anemone Tentacle - Assembly step 3 - SPI from Arduino YÚN ICSP" src="https://github.com/ceskasporitelna/anemone/blob/master/documentation/images/anemone_tentacle_build_3_icsp_wire.png?raw=true" width="600">
+
+TODO add photos for step 3
+
+#### Step 2.3.4 - Back Button
+
+Next step is to wire **the Back Button** to the breadboard on the *Tentacle Shield*.
+
+> Wires shown as **banded** are those you should add in this step.
+
+<img alt="Anemone Tentacle - Assembly step 4 - Back Button" src="https://github.com/ceskasporitelna/anemone/blob/master/documentation/images/anemone_tentacle_build_4_back_button.png?raw=true" width="600">
+
+TODO add photo for step 4
+
+#### Step 2.3.5 - Rotary Encoder
+
+Next step is to wire **the Rotary Encoder KY-040** to the *Tentacle Shield*.
+
+> Wires shown as **banded** are those you should add in this step.
+
+<img alt="Anemone Tentacle - Assembly step 5 - Rotary Encoder" src="https://github.com/ceskasporitelna/anemone/blob/master/documentation/images/anemone_tentacle_build_5_rotary_encoder.png?raw=true" width="600">
+
+TODO add photo for step 5
+
+#### Step 2.3.6 - RJ-11 I2C Socket
+
+Next step is to wire **RJ-11 I2C Socket** to the breadboard on the *Tentacle Shield*.
+
+<img alt="Anemone Tentacle - Assembly step 5.5 - RJ-11 I2C Socket Board" src="https://github.com/ceskasporitelna/anemone/blob/master/documentation/images/anemone_tentacle_build_5_5_rj11_i2c_board.png?raw=true" width="600">
+
+> Wires shown as **banded** are those you should add in this step.
+
+<img alt="Anemone Tentacle - Assembly step 6 - RJ-11 I2C Socket" src="https://github.com/ceskasporitelna/anemone/blob/master/documentation/images/anemone_tentacle_build_6_rj11_i2c.png?raw=true" width="600">
+
+> As you may have already noticed, the wires from the RJ-11 socket **are currently not connected to anything on the breadboard**. We know about this and this is something what needs to be solved in future *(or what can be solved by you!)*. One possibility is to connect the wires directly to the A5 and A4 analog inputs of the Arduino YÚN *(aka I2C bus interface)* and to the VCC and GND. That will give a direct access to the I2C interface via the RJ-11 connector.
+> 
+> But we initally wanted to make this I2C output compatible with the *LEGO® MindStorms kit*. And that is possible but it **requires two additional pull-up resitors and some wiring**, hence the connection is not trivial and **we did not wanted to make the Tentacle more complex just for a feature which might be used by less then 10% of users**. 
+> 
+> That is why we have decided to left this feature for you to finish it in a way which serves best your needs. Feel free to connect the I2C interface either in a classic way, or via the *LEGO® MindStorms* compatible way.
+> 
+> A detailed instructions how to connect Arduino to *LEGO® MindStorms* I2C interface can be found [here](http://www.dexterindustries.com/howto/connect-the-arduino-and-the-lego-mindstorms-together/).
+
+TODO add photo for step 6
+
+#### Step 2.3.7 - Top LEDs
+
+Next step is to wire **the Top LEDs** to the breadboard on the *Tentacle Shield*.
+
+> Wires shown as **banded** are those you should add in this step.
+
+The blue wire is `GND`.
+
+<img alt="Anemone Tentacle - Assembly step 7 - Top LEDs" src="https://github.com/ceskasporitelna/anemone/blob/master/documentation/images/anemone_tentacle_build_7_top_leds.png?raw=true" width="600">
+
+TODO add photo for step 7
+
+#### Step 2.3.8 - Buzzer
+
+Next step is to wire **the Buzzer from the Display Board** to the *Tentacle Shield*.
+
+First put the **Display Board** next to your **Tentacle**.
+
+<img alt="Anemone Tentacle - Assembly step 7.5 - Display Board" src="https://github.com/ceskasporitelna/anemone/blob/master/documentation/images/anemone_tentacle_build_7_5_display_board.png?raw=true" width="600">
+
+And then wire **the Buzzer**
+
+> Wires shown as **banded** are those you should add in this step.
+
+The grey wire is `VCC`.
+
+<img alt="Anemone Tentacle - Assembly step 8 - Buzzer" src="https://github.com/ceskasporitelna/anemone/blob/master/documentation/images/anemone_tentacle_build_8_buzzer.png?raw=true" width="600">
+
+TODO add photos for step 8
+
+#### Step 2.3.9 - Cloud Button
+
+Next step is to wire **the Cloud Button from the Display Board** to the breadboard on the *Tentacle Shield*.
+
+> Wires shown as **banded** are those you should add in this step.
+
+The green wire is `VCC`.
+
+<img alt="Anemone Tentacle - Assembly step 9 - Cloud Button" src="https://github.com/ceskasporitelna/anemone/blob/master/documentation/images/anemone_tentacle_build_9_cloud_button.png?raw=true" width="600">
+
+TODO add photos for step 9
+
+#### Step 2.3.10 - TFT Display
+
+Next step is to wire **the Arduino TFT Display from the Display Board** to the breadboard on the *Tentacle Shield*.
+
+> Wires shown as **banded** are those you should add in this step.
+
+The brown wire is `VCC`, the black wire is `GND`.
+
+<img alt="Anemone Tentacle - Assembly step 10 - TFT Display" src="https://github.com/ceskasporitelna/anemone/blob/master/documentation/images/anemone_tentacle_build_10_lcd.png?raw=true" width="600">
+
+TODO add photos for step 10
+
+> That concludes the Anemone Tentacle electronic circuits assembly process. **Congratulations!**
+
+Your Anemone Tentacle should now look like this:
+
+<img alt="Anemone Tentacle - Assembly step 11 - Complete Tentacle Wiring" src="https://github.com/ceskasporitelna/anemone/blob/master/documentation/images/anemone_tentacle_build_11_done.png?raw=true" width="600">
+
+TODO add photos for step 11
+
+> We recommend testing the Tentacle electronic circuits after inserting them intro the bottom part of the **Anemone Tentacle Case** in the *Step 4*.
 
 ## Step 3 - 3D print Tentacle case
 
