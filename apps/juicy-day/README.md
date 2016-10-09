@@ -16,6 +16,10 @@ As every Anemone App, even the Juicy Day Anemone App contains a functionality wh
 
 You can install Juicy Day Anemone App on your Tentacle from the Mobile Client or from the Anemone Cloud Administration.
 
+## Screens
+
+<img alt="Anemone Tentacle UI - Juicy Day Currency Converter" src="https://github.com/ceskasporitelna/anemone/raw/master/documentation/images/app_converter.png"> <img alt="Anemone Tentacle UI - OTA Update in progress" src="https://github.com/ceskasporitelna/anemone/raw/master/documentation/images/app_ota.png"> <img alt="Anemone Tentacle UI - Menu" src="https://github.com/ceskasporitelna/anemone/raw/master/documentation/images/app_menu.png">
+
 ## Variables
 
 Juicy Day is using 3 variables.
