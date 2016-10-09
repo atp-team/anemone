@@ -37,8 +37,8 @@ And that's it! ;)
 
 In order to build a Tentacle you will need the following active components:
 
-* 1x [Arduino YÚN](https://www.arduino.cc/en/Main/ArduinoBoardYun)
-* 1x [Arduino TFT LCD Display](https://www.arduino.cc/en/Main/GTFT)
+* 1x [Arduino YÚN](https://www.arduino.cc/en/Main/ArduinoBoardYun) *(+ SD card)*
+* 1x [Arduino TFT LCD Display](https://www.arduino.cc/en/Main/GTFT) *(+ SD card)*
 * 1x [Rotary Encoder KY-040](http://henrysbench.capnfatz.com/henrys-bench/arduino-sensors-and-input/keyes-ky-040-arduino-rotary-encoder-user-manual/) (used as a *menu knob*)
 * 1x [Buzzer YL-44](https://rydepier.wordpress.com/2015/05/24/active-buzzer-alarm/)
 * 1x [Microswitch TC-0108-T](https://www.gmelectronic.com/tc-0108-t) (used as a *cloud button*)
@@ -108,6 +108,9 @@ Regarding the tools needed, we would recommend the following:
 * Leadless soldering iron
 * Tweezers *(for example a [set from VETUS](https://www.aliexpress.com/wholesale?catId=0&SearchText=vetus+tweezers+6pcs))*
 * [Third hand soldering iron stand](https://www.aliexpress.com/wholesale?catId=190405&SearchText=third+hand+soldering)
+* Cable insulation remover
+* Knife
+* Multi-Meter
 
 <img class="icon" alt="Anemone Tentacle - Needed tools" src="https://github.com/ceskasporitelna/anemone/blob/master/documentation/images/tentacle_passive_parts.jpg?raw=true" width="300">
 
@@ -150,6 +153,10 @@ the scheme is the following:
 
 <img class="icon" alt="Anemone Tentacle - Electrical Circuit Scheme" src="https://github.com/ceskasporitelna/anemone/blob/master/documentation/images/anemone_tentacle_prototype_scheme.png?raw=true" width="600">
 
+And it looks like this when assembled (without the case):
+
+TODO assemled Tentacle image
+
 In order to understand it better, we have created a simplified wiring image as well. In this image we have removed all passive components *(like a prototype shield or stripboard)* and have replaced them by a classic breadboard.
 
 <img class="icon" alt="Anemone Tentacle - Simplified Electrical Circuit Wiring" src="https://github.com/ceskasporitelna/anemone/blob/master/documentation/images/anemone_tentacle_prototype_breadboard.png?raw=true" width="600">
@@ -160,6 +167,136 @@ In addition we have created an image where the `VCC` is shown as a **Red wire** 
 
 Below we will explain the Anemone Tentacle wiring construction step by step.
 
+### Step 2.1 - Introduction
+
+Before we move further, in order to avoid confusion, lets explain how some components shown on our breadboard wiring image look like in reality.
+
+#### Buzzer YL-44
+
+The *Buzzer YL-44* looks like this.
+
+TODO buzzer image
+
+#### Rotary Encoder KY-040
+
+The *Rotary Encoder KY-040* looks like this.
+
+TODO encoder image
+
+#### Arduino Prototype Shield
+
+The grey wires mess is in fact the *Arduino Prototype Shield* pluged to Arduino YÚN.
+
+TODO shield image
+
+#### RJ-11 I2C Bus Socket
+
+The RJ-11 socket is used as an output for I2C bus.
+
+TODO i2c image
+
+#### Arduino TFT Display
+
+What looks like some Adafruit Display is in fact the original *Arduino TFT Display*. We were just not able to find better part in Fritzing for it.
+
+TODO tft image
+
+And the rest is as it seems to be. A few resistors, optocouplers, buttons and LEDs.
+
+### Step 2.2 - *Plug-and-Play* components preparation
+
+In order to make the Tentacle assemble as easy as is possible, the best way how to put it together is to first prepare what we call "*Plug-and-Play components*" and then put them together.
+
+> This approach will play well with the cute 3D printed case for your Tentacle (if you plan to use it).
+
+#### Step 2.2.1 - Prototype Shield Legs
+
+As any Arduino out there the *Arduino YÚN* is compatible with **Arduino shields** *(aka boards with additional electronic circuits which can extend capabilities of your Arduino)*.
+
+Which is exactly what we are going to do - we will extend capabilities of our Arduino YÚN by creating and later pluging into it **an Anemone Tentacle Shield**.
+
+There is just one issue with the idea (and shields on Arduino YÚN in general) - Arduino YÚN **does not conform** to the default height of its electronic components which is exepected by the majority of Arduino shields because it features an ethernet socked which height is too large. This means that any shield you plan to use on your Arduino YÚN needs to have longer "legs" (aka pin headers).
+
+And this is exactly the thing we need to do with our **Anemone Tentacle Shield**.
+
+The Anemone Tentacle Shield will be based on the *Arduino Prototype Shield*.
+
+TODO image of arduino prototype shield
+
+Hence the first step is creation of longer legs for our shield.
+
+In general there are two ways how you can achieve it.
+
+1. You can de-solder the original legs on the shield and replace them with longer ones
+2. Or you can build a reduction (aka something you will put between the short legs of shield and short sockets of Arduino YÚN in order to make the legs longer)
+
+> We strongly recomend you to follow the option 2.
+ 
+The reason is, that option 1. is **much more complicated**. First you need to own a de-soldering machine in order to be able to de-solder anything *(especially parts with more than one connection are nearly impossible to be de-soldered using a classic soldering tool)*. Second reason is that longer legs (aka jumper wire headers) are much more difficult to buy that the classic ones which you can always order from China.
+
+So we have taken option 2. The result looks like this.
+
+TODO image of legs
+
+The legs can be the connected to our *Anemone Tentacle Shield*.
+
+TODO image of legs connected to the shield.
+
+Which can be then connected to the Arduino YÚN.
+
+TODO image of shield connected to yun
+
+#### Step 2.2.2 - Display Board
+
+With the *Anemone Tentacle Shield* legs done we can move to the **Display Board** assembly.
+
+TODO display board without components image
+
+The **Display Board** is a very important component of the Anemone Tentacle. Its purpose is to hold the *Arduino TFT Display*, the *YL-44 Buzzer* and the *Cloud Button* together and to provide *an easy-wiring solution* of these components to the rest of the Tentacle.
+
+The *Display Board* is based on a **Stripboard Single Side PCB 5x7cm**.
+
+TODO empty stripboard image
+
+On the **top side** of the stripboard we will solder the following:
+
+1. Two lines of Jumper Wire Header Sockets which will hold the Arduino TFT Display
+2. One line of 90-deg. Jumper Wire Headers which will be our connection point to the rest of the Tentacle
+3. One button which will serve as the Cloud Button 
+4. The YL-44 Buzzer (attached to Display Board using *hot glue*)
+
+TODO image of top side of display board
+
+On the **bottom side** of the stripboard we will create connections between the components. These should look like this.
+
+TODO image of bottom side of display board
+
+As a next step we will attach a *20cm jumper cable F-M* to the *YL-44 Buzzer*.
+
+TODO image of display board with wire to buzzer
+
+And next step is attaching a *10cm jumper cable F-M* to the *90-deg. Jumper Wire Headers* which will connect the Cloud Button and TFT Display to the rest of the Tentacle.
+
+TODO image of display board with both wires
+
+And the finale step is to attach the Arduino TFT Display *(with SD card)* to its sockets.
+
+TODO image of completed display board
+
+#### Step 2.2.3 - Tentacle Shield Wiring
+
+#### Step 2.2.4 - Arduino YÚN SPI Wiring
+
+#### Step 2.2.5 - Rotary Encoder KY-040 Wiring
+
+#### Step 2.2.6 - Top Button Wiring
+
+#### Step 2.2.7 - Top LEDs Wiring
+
+#### Step 2.2.8 - I2C RJ-11 Socket Wiring
+
+#### Step 2.3 - Tentacle electronic circuits assembly
+
 TODO...
 
 ## Step 3 - 3D print Tentacle case
@@ -169,6 +306,8 @@ Next step is to 3D print the *Anemone Tentacle case*.
 > For the *How to print* Anemone Tentacle case refer to a separate page of our tutorial, see [How to print Anemone Tentacle Case](https://github.com/ceskasporitelna/anemone/blob/master/documentation/HowToPrintAnemoneTentacleCase.md).
 
 ## Step 4 - Assemble Tentacle
+
+With the Anemone Tentacle case 3D printed and all electronic components assebled we can approach to the Anemone Tentacle assembly.
 
 TODO image with all parts ready for assembly
 
@@ -214,13 +353,37 @@ ping www.anemone.cloud
 
 > Please check if your Tentacle is connected to Internet **before advancing in the tutorial**. You will not be able to do this step without having your Arduino YÚN connected to the Internet.
 
-### Step 6.1 - SSH to your Tentacle
+### Step 6.1 - Sign up to the Anemone Cloud
+
+Open the [Anemone Cloud Sign up page](http://www.anemone.cloud/users/sign_up) and perform a free registration.
 
 ### Step 6.2 - Create new Tentacle on Anemone Cloud
 
 ### Step 6.3 - Download `tentacle.sh` from Anemone Cloud
 
 ### Step 6.4 - Run `tentacle.sh` on your Tentacle via SSH
+
+Enter the folder where you have the downloaded the `tentacle.sh` and perform this command in terminal:
+
+```bash
+ssh root@tentacle.local 'sh -s' < tentacle.sh
+```
+
+> You will be asked to enter the Arduino YÚN password. The default password is `arduino`. And it can be changed in Arduino YÚN WebAdmin panel.
+
+Where `tentacle.local` is your Tentacle (Arduino YÚN). We have named our Arduino YÚN *"Tentacle"* do it now has domain name `tentacle.local`.
+
+By default Arduino YÚN has domain name `arduino.local`. On Windows machines you might not be able to connect to your Arduino YÚN using its domain name. In that case, use its IP address instead.
+
+You can find the IP address of your Arduino YÚN from its WebAdmin panel or by using the `nmap` cli tool:
+
+```bash
+nmap -sP 192.168.1.0/24
+```
+
+Where `192.168.1.0` is your network IP address.
+
+> You can find your network IP address *usually* by taking your machine IP address and replace the last number with 0.
 
 The Tentacle initialization script (`tentacle.sh`) will perform the following on your Tentacle:
 
@@ -255,7 +418,9 @@ Now you can open the *Anemone Cloud Administration* and from the list of apps se
 
 After installing the app, you should be able to access the app's *User Interface* in the *Anemone Mobile Client* iOS or Android app on your smartphone.
 
-After 60s your Tentacle should initiate the *OTA update* and install the desired app. 
+After 60s your Tentacle should initiate the *OTA update* and install the desired app.
+
+<img alt="Anemone Tentacle UI - Juicy Day Currency Converter" src="https://github.com/ceskasporitelna/anemone/raw/master/documentation/images/app_converter.png">
 
 > When performing the OTA update, Tentacle will turn off its display. **This is normal**. The OTA update will take some time to the slow Arduino YÚN. So if after 10s your Tentacle will still "look like unresponsive", don't panic and let it finish the OTA update. **It can take up to 5 minutes**. In case of issues, refer the [FAQ](https://github.com/ceskasporitelna/anemone#faq).
 
