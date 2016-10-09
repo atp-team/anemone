@@ -119,4 +119,4 @@ Because the top of the Anemone Tentacle is LEGO® compatible, you can customize 
 
 TODO 2 Tentacle images with LEGO build on them
 
-LEGO® is a trademark of the LEGO Group of companies which does not sponsor, authorize or endorse this site ([trademark guidelines](http://www.lego.com/en-us/legal/legal-notice/fair-play)).
+*LEGO® is a trademark of the LEGO Group of companies which does not sponsor, authorize or endorse this site ([trademark guidelines](http://www.lego.com/en-us/legal/legal-notice/fair-play)).*
