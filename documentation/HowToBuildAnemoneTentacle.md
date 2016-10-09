@@ -295,7 +295,7 @@ TODO image of completed display board
 
 #### Step 2.2.8 - I2C RJ-11 Socket Wiring
 
-#### Step 2.3 - Tentacle electronic circuits assembly
+### Step 2.3 - Tentacle electronic circuits assembly
 
 TODO...
 
@@ -307,7 +307,7 @@ Next step is to 3D print the *Anemone Tentacle case*.
 
 ## Step 4 - Assemble Tentacle
 
-With the Anemone Tentacle case 3D printed and all electronic components assebled we can approach to the Anemone Tentacle assembly.
+With the Anemone Tentacle case 3D printed and all electronic components assembled we can **approach the Anemone Tentacle assembly**.
 
 TODO image with all parts ready for assembly
 
@@ -357,9 +357,39 @@ ping www.anemone.cloud
 
 Open the [Anemone Cloud Sign up page](http://www.anemone.cloud/users/sign_up) and perform a free registration.
 
+<img alt="Anemone Cloud - Sign up" src="https://github.com/ceskasporitelna/anemone/blob/master/documentation/images/cloud_1_sign_up.png?raw=true" width="600">
+
 ### Step 6.2 - Create new Tentacle on Anemone Cloud
 
+After signing up you will see (empty) *list of your Anemone apps* a.k.a **your dashboard**.
+
+<img alt="Anemone Cloud - Dashboard" src="https://github.com/ceskasporitelna/anemone/blob/master/documentation/images/cloud_2_dashboard.png?raw=true" width="600">
+
+You need to *press the New button* in the left menu under the *Tentacles* section.
+
+<img alt="Anemone Cloud - Press New button in the left menu under the Tentacles section" src="https://github.com/ceskasporitelna/anemone/blob/master/documentation/images/cloud_3_open_add_tentacle_form.png?raw=true" width="600">
+
+Now you should *fill your Tentacle name*.
+
+<img alt="Anemone Cloud - Fill Tentacle name" src="https://github.com/ceskasporitelna/anemone/blob/master/documentation/images/cloud_4_fill_tentacle_name.png?raw=true" width="600">
+
+And finaly press the *Add a new Tentacle* button.
+
+<img alt="Anemone Cloud - Add a new Tentacle" src="https://github.com/ceskasporitelna/anemone/blob/master/documentation/images/cloud_5_add_tentacle.png?raw=true" width="600">
+
+Your new Tentacle is *successfully created*. Nice job! ;)
+
+<img alt="Anemone Cloud - Tentacle is created" src="https://github.com/ceskasporitelna/anemone/blob/master/documentation/images/cloud_6_tentacle_added.png?raw=true" width="600">
+
 ### Step 6.3 - Download `tentacle.sh` from Anemone Cloud
+
+You can download the `tentacle.sh` initialization script **from the list of Tentacles** in your *Anemone Cloud Administration*.
+
+Just click on the **"Download Arduino initializer script"** link *next ot your Tentacle* in the list.
+
+> It is important to download the right *initializer script*! Every Anemone Tentacle has its own. Only owner of a Tentacle can download its *initializer script*. Guests are not allowed to do this.
+
+<img alt="Anemone Cloud - Download tentacle.sh" src="https://github.com/ceskasporitelna/anemone/blob/master/documentation/images/cloud_7_download_init_script.png?raw=true" width="600">
 
 ### Step 6.4 - Run `tentacle.sh` on your Tentacle via SSH
 
@@ -373,7 +403,7 @@ ssh root@tentacle.local 'sh -s' < tentacle.sh
 
 Where `tentacle.local` is your Tentacle (Arduino YÚN). We have named our Arduino YÚN *"Tentacle"* do it now has domain name `tentacle.local`.
 
-By default Arduino YÚN has domain name `arduino.local`. On Windows machines you might not be able to connect to your Arduino YÚN using its domain name. In that case, use its IP address instead.
+> By default Arduino YÚN has domain name `arduino.local`. On Windows machines you might not be able to connect to your Arduino YÚN using its domain name. In that case, use its IP address instead.
 
 You can find the IP address of your Arduino YÚN from its WebAdmin panel or by using the `nmap` cli tool:
 
@@ -442,4 +472,4 @@ In general, do not miss the following:
 6. Explore the "Juicy Day" [example Anemone App on our GitHub](https://github.com/ceskasporitelna/anemone/tree/master/apps/juicy-day)
 7. Write us. Tweet about us, write on Facebook, make a blogpost. Use hashtag **#anemoneCloud**.
 
-LEGO® is a trademark of the LEGO Group of companies which does not sponsor, authorize or endorse this site ([trademark guidelines](http://www.lego.com/en-us/legal/legal-notice/fair-play)).
+*LEGO® is a trademark of the LEGO Group of companies which does not sponsor, authorize or endorse this site ([trademark guidelines](http://www.lego.com/en-us/legal/legal-notice/fair-play)).*
