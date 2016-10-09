@@ -83,13 +83,11 @@ Every of these three components of an Anemone App runs in one part of Anemone pl
 * **Cloud Logic** runs in the *Cloud*
 * **Tentacle User Interface and Logic** runs on the *Tentacle*
 
-When your create these three components you have successfully create an Anemone App. Every Anemone App is explicitly defined use by these three components.
+When you create these three components you have successfully created an *Anemone App*. Every Anemone App is **explicitly defined by the these three components**.
 
-What the components are in fact?
-
-* Mobile User Interface is defined by an **interface.json** file
-* Cloud Logic is defined by an **manifest.json** file
-* Tentacle User Interface and Logic is defined by **arduino .ino sketch** which uses our *Anemone arduino library*
+* *Mobile User Interface* is defined by an **interface.json** file
+* *Cloud Logic* is defined by an **manifest.json** file
+* *Tentacle User Interface and Logic* is defined by **arduino .ino sketch** which uses our *Anemone arduino library*
 
 #### Mobile User Interface (interface.json)
 
