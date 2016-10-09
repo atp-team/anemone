@@ -264,26 +264,119 @@ Now lets take a closer look on the individual steps.
 
 #### Tentacle user interface components and screens
 
+Below you can find some examples and conventions of Anemone Apps **Tentacle screens design**.
+
+> When designing screens for the Tentacle part *(= sketch)* of your Anemone App **be simple**. You need to be aware the fact that Arduino YÚN has terrible refresh rate of its TFT Display, especially in case of drawing images from SD card.
+> 
+> In general there are two ways how you can handle Anemone App visuals on a Tentacle.
+> 
+> 1. You can use .bmp image files stored on SD card. But drawing big bitmaps on the TFT will take some time to the Arduino. **The drawing of a image is visible!** And since you need images on SD card, you will basically sacrifice the OTA update feature. You users will sudenly need to copy some image to the SD card of their Tentacle before they will be able to use your app.
+> 2. Which brings us to the second approach how you can handle the issue. You can limit yourself just to basic graphics *(ideally just consisting from bunch of colored rectangles)* and draw these directly in code of your sketches.
+> 
+> **We strongly recommend you to use the option 2.** That is what we have done in the [Juicy Day example Anemone App](https://github.com/ceskasporitelna/anemone/tree/master/apps/juicy-day). And as you can see, it looks nice.
+
 ##### Anemone Tentacle Screens
+
+The following screens will be accesible by your Anemone App by using the [Anemone Arduino Library](https://github.com/ceskasporitelna/anemone/tree/master/toolkit/anemone-arduino-library).
+
+*Ready for App*
 
 <img alt="Anemone Tentacle UI - Ready for app installation" src="https://github.com/ceskasporitelna/anemone/raw/master/documentation/images/app_ready_for_installation.png"> 
 
+This screen indicates that Tentacle is **ready to load some Anemone App by OTA update** in the next *Cloud Synchronization* cycle (which happens every 1 minute).
+
+--
+
+*Generating Guest Code*
+
 <img alt="Anemone Tentacle UI - Generating guest code" src="https://github.com/ceskasporitelna/anemone/raw/master/documentation/images/app_generating_code.png"> 
+
+This screen is shown when user presses the **Cloud Button** and Tentacle *is generating a guest code*. 
+
+> This screen will be automatically replaced by the next one when the guest code *is generated* and sent to the *Anemone Cloud*. The guest code generation *can be cancelled* by pressing the **Back Button** in the top of the Tentacle.
+
+--
+
+*Share Mode*
 
 <img alt="Anemone Tentacle UI - Share mode" src="https://github.com/ceskasporitelna/anemone/raw/master/documentation/images/app_generated_code.png"> 
 
+This screen is shown when user presses the **Cloud Button** and Tentacle *successfully generated a guest code*. When this screen is shown, the Tentacle is in the **Share Mode**.
+
+While Tentacle is the **Share Mode**, every user *who is not owner or guest to this Tentacle already* can enter the guest code shown to his Anemone Mobile Client and became a guest to this Tentacle.
+
+> The share mode is valid only for the first user.
+
+The Share Mode can be cancelled by pressing the by pressing the **Back Button** in the top of the Tentacle.
+
+> This screen will be automatically replaced by the next one when the guest code *will expire*. That will happen when the on-screen timer will reach zero.
+
+--
+
+*Guest Code Expired*
+
 <img alt="Anemone Tentacle UI - Guest code expired" src="https://github.com/ceskasporitelna/anemone/raw/master/documentation/images/app_code_expired.png"> 
+
+This screen is shown when Share Mode is cancelled or when the generated Guest Code expires.
+
+> This screen will be automatically replaced by a Dashboard of the installed Anemone App in few seconds.
+
+--
 
 ##### Your Anemone App Screens
 
+The following screens are examples how screens *in your Anemone App* can look like.
+
+*Dashboard*
+
 <img alt="Anemone Tentacle UI - Juicy Day Currency Converter" src="https://github.com/ceskasporitelna/anemone/raw/master/documentation/images/app_converter.png"> 
 
-<img alt="Anemone Tentacle UI - OTA Update in progress" src="https://github.com/ceskasporitelna/anemone/raw/master/documentation/images/app_ota.png"> 
+Dashboard of your application can look like this *(but it does not have to)*. 
+
+The Dashboard screen on the image above was taken from the [Juicy Day example Anemone App](https://github.com/ceskasporitelna/anemone/tree/master/apps/juicy-day).
+
+> You can notice thow the top *solid black header* improves user the orientation on the screen and gives *a clean difference* between the input and output data areas in this case.
+
+--
+
+*Cloud Synchronization*
+
+<img alt="Anemone Tentacle UI - Cloud Synchronization in progress" src="https://github.com/ceskasporitelna/anemone/raw/master/documentation/images/app_ota.png"> 
+
+When the Tentacle will be performing the **Cloud Synchronization** *(cheking if it should perform the OTA update and syncing values of all variables)* it will **be unresponsive for few moments** *(because the microcontroller it contains does not support any sophisticated form of multi-tasking)*. The Tentacle will inform the user about this state by showing two blue and yellow lines in the top and bottom of the screen. When the **Cloud Synchronization** will complete, the lines will dissapear.
+
+> The screen on the image above was taken from the [Juicy Day example Anemone App](https://github.com/ceskasporitelna/anemone/tree/master/apps/juicy-day).
+
+--
+
+*Menu*
 
 <img alt="Anemone Tentacle UI - Menu" src="https://github.com/ceskasporitelna/anemone/raw/master/documentation/images/app_menu.png">
 
+Every Anemone App can *(and should)* have **a menu**. Menu can contain two or more *menu items*. Every *menu item* should have a *name* and *icon* for the selected and for the deselected state.
+
+The menu is shown when the *Menu Knob* on the right side of Tentacle **is pressed**. Menu items can be selected by **rotating** the **Menu Knob** up or down. By presing the *Menu Knob* the selected menu item **is invoked**. Menu screen can be **dismissed** by pressing the *Back Button* on the top of the Tentacle.
+
+> The screen on the image above was taken from the [Juicy Day example Anemone App](https://github.com/ceskasporitelna/anemone/tree/master/apps/juicy-day).
+
 ### How to register Anemone App in the *Anemone Cloud Administration*
+
+> When uploading `.hex` file of your Anemone App sketch, **please always upload the version WITHOUT the bootloader!** Tentacle will append the bootloader automatically while performing the OTA update.
+> 
+> Uploading a `.hex` file with bootloader **will not work**. You will be able to *upload it to Anemone Cloud*, but the subsequent OTA update of the Tentacle **will fail**.
 
 ### How to test the app on your Tentacle
 
+We strongly recommend you to test your Anemone App sketch on the Tentacle directly **by uploading it by serial connection** from the *Arduino IDE*.
+
+When something will be bad and you will **have a bug in your sketch**, the Tentacle **might not be able to perform the OTA** any longer.
+
+In that case uploading a fixed sketch by serial interface in *a classic Arduino way* usually helps.
+
+When your sketch will work as you wanted on your Tentacle, then it is time to upload its `.hex` file to the Anemone Cloud and try to perform a *OTA update* to it.
+
 ### How to Submit the app for Review in the Anemone Cloud Administration
+
+When your Anemone App is tested and ready, you can **submit it for review**.
+
+You can do this by logging into your *Anemone Cloud Administration*, and pressing the "**Submit for Review**" link next to your Anemone App.
