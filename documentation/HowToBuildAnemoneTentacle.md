@@ -72,7 +72,7 @@ In order to make your life easier we have prepared a list of links where you can
 
 > This is just a hint ;). All the parts are **Open Hardware** you can buy them in your favorite shop, local hardware store, etc. 
 
-| # | Part | Where to buy in Czech Republic* | Where to buy Worldwide |  Cost |
+| # | Part | Where to buy in Czech Republic* | Where to buy Worldwide | Cost |
 |:------------- |:------------- |:---------------:|:-------------:| -------------:|
 | 1x | Arduino YÚN | https://goo.gl/WWNbBz | https://goo.gl/zxKTJE | €68.20 |
 | 1x | Arduino TFT LCD Display | https://goo.gl/UJ5RQx | https://goo.gl/QMAZtW | €20.90 |
@@ -130,7 +130,7 @@ For a minimal Tentacle, you will need the following:
 
 #### Minimal Tentacle Parts List
 
-| # | Part | Where to buy in Czech Republic* | Where to buy Worldwide |  Cost |
+| # | Part | Where to buy in Czech Republic* | Where to buy Worldwide | Cost |
 |:------------- |:------------- |:---------------:|:-------------:| -------------:|
 | 1x | Arduino YÚN | https://goo.gl/WWNbBz | https://goo.gl/zxKTJE | €68.20 |
 | 1x | Arduino TFT LCD Display | https://goo.gl/UJ5RQx | https://goo.gl/QMAZtW | €20.90 |
