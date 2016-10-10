@@ -98,7 +98,7 @@ In order to make your life easier we have prepared a list of links where you can
 
 **The Anemone platform (as well as the Tentacle) has been developed with love in [Prague](https://goo.gl/maps/gx7orLWymPA2), so people from our country have special buying options column ;)*
 
-> You can download the [Anemone Tentacle parts list as CSV file](TODO) or as [PDF file](TODO).
+> You can download the [Anemone Tentacle parts list as CSV file](https://github.com/ceskasporitelna/anemone/blob/master/documentation/files/anemone-tentacle-parts.csv) or as [PDF file](https://github.com/ceskasporitelna/anemone/blob/master/documentation/files/anemone-tentacle-parts.pdf).
  
 ### Tools
 
@@ -141,7 +141,7 @@ For a minimal Tentacle, you will need the following:
 | 1x | Jumper Cables M-M, M-F, F-F, 40pcs, 20cm | https://goo.gl/buLGLN | https://goo.gl/QxP5vw | €2.17 |
 | | | | **Total** | **€91.70** |
 
-> You can download the [Minimal Tentacle parts list as CSV file](TODO) or as [PDF file](TODO).
+> You can download the [Minimal Tentacle parts list as CSV file](https://github.com/ceskasporitelna/anemone/blob/master/documentation/files/minimal-tentacle-parts.csv) or as [PDF file](https://github.com/ceskasporitelna/anemone/blob/master/documentation/files/minimal-tentacle-parts.pdf).
 
 ## Step 2 - Build Tentacle electronic circuits
 
