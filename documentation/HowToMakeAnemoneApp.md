@@ -87,7 +87,7 @@ In order to make this Mobile User Interface, you need to create an **interface.j
 }
 ```
 
-> You can find more information about creation of *interface.json* files for Anemone Apps in our [How to define Anemone App User Interface in interface.json](TODO) tutorial.
+> You can find more information about creation of *interface.json* files for Anemone Apps in our [How to define Anemone App User Interface in interface.json](https://github.com/ceskasporitelna/anemone/blob/master/documentation/HowToMakeAnemoneApp.md#how-to-define-anemone-app-user-interface-in-interfacejson) tutorial.
 
 #### Cloud Logic (manifest.json)
 
@@ -228,7 +228,7 @@ The complete *manifest.json* file can look like this:
 }
 ```
 
-> You can find more information about creation of *manifest.json* files for Anemone Apps in our [How to define Anemone App Logic in manifest.json](TODO) tutorial.
+> You can find more information about creation of *manifest.json* files for Anemone Apps in our [How to define Anemone App Logic in manifest.json](https://github.com/ceskasporitelna/anemone/blob/master/documentation/HowToMakeAnemoneApp.md#how-to-define-anemone-app-logic-in-manifestjson) tutorial.
 
 #### Tentacle User Interface and Logic (arduino .ino sketch) 
 
@@ -236,9 +236,9 @@ The last component of Anemone App is the one which will run on a Tentacle.
 
 This component is in fact an normal **arduino .ino sketch** file which runs on the *Arduino YÚN* which is "the brain" of a Tentacle.
 
-In order to make the development of Anemone sketches easier, we have prepared the [anemone arduino library](https://github.com/ceskasporitelna/anemone/tree/master/toolkit/anemone-arduino-library) and default [Tentacle user interface components and screens](TODO).
+In order to make the development of Anemone sketches easier, we have prepared the [anemone arduino library](https://github.com/ceskasporitelna/anemone/tree/master/toolkit/anemone-arduino-library) and default [Tentacle user interface components and screens](https://github.com/ceskasporitelna/anemone/blob/master/documentation/HowToMakeAnemoneApp.md#anemone-tentacle-screens).
 
-> You can find more information about creation of *arduino sketch* files for Anemone Apps in our [How to create Anemone App Sketch in Arduino IDE](TODO) tutorial.
+> You can find more information about creation of *arduino sketch* files for Anemone Apps in our [How to create Anemone App Sketch in Arduino IDE](https://github.com/ceskasporitelna/anemone/blob/master/documentation/HowToMakeAnemoneApp.md#how-to-create-anemone-app-sketch-in-arduino-ide) tutorial.
 
 ## How to create new Anemone App
 

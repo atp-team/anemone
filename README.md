@@ -126,7 +126,7 @@ In order to make this Mobile User Interface, you need to create an **interface.j
 }
 ```
 
-> You can find more information about creation of *interface.json* files for Anemone Apps in our [How to define Anemone App User Interface in interface.json](TODO) tutorial.
+> You can find more information about creation of *interface.json* files for Anemone Apps in our [How to define Anemone App User Interface in interface.json](https://github.com/ceskasporitelna/anemone/blob/master/documentation/HowToMakeAnemoneApp.md#how-to-define-anemone-app-user-interface-in-interfacejson) tutorial.
 
 #### Cloud Logic (manifest.json)
 
@@ -269,7 +269,7 @@ The complete *manifest.json* file can look like this:
 }
 ```
 
-> You can find more information about creation of *manifest.json* files for Anemone Apps in our [How to define Anemone App Logic in manifest.json](TODO) tutorial.
+> You can find more information about creation of *manifest.json* files for Anemone Apps in our [How to define Anemone App Logic in manifest.json](https://github.com/ceskasporitelna/anemone/blob/master/documentation/HowToMakeAnemoneApp.md#how-to-define-anemone-app-logic-in-manifestjson) tutorial.
 
 #### Tentacle User Interface and Logic (arduino .ino sketch) 
 
@@ -277,11 +277,11 @@ The last component of Anemone App is the one which will run on a Tentacle.
 
 This component is in fact an normal **arduino .ino sketch** file which runs on the *Arduino YÚN* which is "the brain" of a Tentacle.
 
-In order to make the development of Anemone sketches easier, we have prepared the [anemone arduino library](https://github.com/ceskasporitelna/anemone/tree/master/toolkit/anemone-arduino-library) and default [Tentacle user interface components and screens](TODO).
+In order to make the development of Anemone sketches easier, we have prepared the [anemone arduino library](https://github.com/ceskasporitelna/anemone/tree/master/toolkit/anemone-arduino-library) and default [Tentacle user interface components and screens](https://github.com/ceskasporitelna/anemone/blob/master/documentation/HowToMakeAnemoneApp.md#anemone-tentacle-screens).
 
 <img alt="Anemone Tentacle UI - Ready for app installation" src="https://github.com/ceskasporitelna/anemone/raw/master/documentation/images/app_ready_for_installation.png"> <img alt="Anemone Tentacle UI - Juicy Day Currency Converter" src="https://github.com/ceskasporitelna/anemone/raw/master/documentation/images/app_converter.png"> <img alt="Anemone Tentacle UI - OTA Update in progress" src="https://github.com/ceskasporitelna/anemone/raw/master/documentation/images/app_ota.png"> <img alt="Anemone Tentacle UI - Generating guest code" src="https://github.com/ceskasporitelna/anemone/raw/master/documentation/images/app_generating_code.png"> <img alt="Anemone Tentacle UI - Share mode" src="https://github.com/ceskasporitelna/anemone/raw/master/documentation/images/app_generated_code.png"> <img alt="Anemone Tentacle UI - Guest code expired" src="https://github.com/ceskasporitelna/anemone/raw/master/documentation/images/app_code_expired.png"> <img alt="Anemone Tentacle UI - Menu" src="https://github.com/ceskasporitelna/anemone/raw/master/documentation/images/app_menu.png">
 
-> You can find more information about creation of *arduino sketch* files for Anemone Apps in our [How to create Anemone App Sketch in Arduino IDE](TODO) tutorial.
+> You can find more information about creation of *arduino sketch* files for Anemone Apps in our [How to create Anemone App Sketch in Arduino IDE](https://github.com/ceskasporitelna/anemone/blob/master/documentation/HowToMakeAnemoneApp.md#how-to-create-anemone-app-sketch-in-arduino-ide) tutorial.
 
 ## This looks Awesome! How can I start?
 
@@ -313,9 +313,9 @@ When starting *as a Developer* do the following:
 2. [Sign up](http://www.anemone.cloud/users/sign_up) for free and [download the Mobile Client](http://www.anemone.cloud)
 3. Read the [How to build Anemone Tentacle](https://github.com/ceskasporitelna/anemone/blob/master/documentation/HowToBuildAnemoneTentacle.md) tutorial
 4. Read the [How to make Anemone App](https://github.com/ceskasporitelna/anemone/blob/master/documentation/HowToMakeAnemoneApp.md) tutorial, or directly
-	1. [How to define Anemone App Logic in manifest.json](TODO)
-	2. [How to define Anemone App User Interface in interface.json](TODO)
-	3. [How to create Anemone App Sketch in Arduino IDE](TODO)
+	1. [How to define Anemone App Logic in manifest.json](https://github.com/ceskasporitelna/anemone/blob/master/documentation/HowToMakeAnemoneApp.md#how-to-define-anemone-app-logic-in-manifestjson)
+	2. [How to define Anemone App User Interface in interface.json](https://github.com/ceskasporitelna/anemone/blob/master/documentation/HowToMakeAnemoneApp.md#how-to-define-anemone-app-user-interface-in-interfacejson)
+	3. [How to create Anemone App Sketch in Arduino IDE](https://github.com/ceskasporitelna/anemone/blob/master/documentation/HowToMakeAnemoneApp.md#how-to-create-anemone-app-sketch-in-arduino-ide)
 5. Read the [How to make Anemone Connector](https://github.com/ceskasporitelna/anemone/blob/master/documentation/HowToMakeAnemoneConnector.md) tutorial
 6. You may be also interested in the [Anemone Apps Repository](https://github.com/ceskasporitelna/anemone/tree/master/apps), [List of available Anemone Connectors](https://github.com/ceskasporitelna/anemone/tree/master/connectors) and [Anemone Arduino Library documentation](https://github.com/ceskasporitelna/anemone/tree/master/toolkit/anemone-arduino-library)
 7. Explore the "Juicy Day" [example Anemone App on our GitHub](https://github.com/ceskasporitelna/anemone/tree/master/apps/juicy-day)
