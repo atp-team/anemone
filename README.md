@@ -338,7 +338,7 @@ In case of any question or issue, feel free to add a GitHub Issue in this reposi
 For their great effort we owe a BIG thank to the following people and entities from the joint project development team (everybody did *a lot more* then what was expected from him):
 
 * *Pedro Pinto da Silva* for the outstanding graphical design of the entire platform including website, mobile app, Arduino app UI and infographics. This platform design has a story.
-* *Martin Svoboda* for the development of Anemone Cloud Ruby on Rails application, manifest and interface JSON parsers and database.
+* *[Martin Svoboda](https://github.com/svobom57)* for the development of Anemone Cloud Ruby on Rails application, manifest and interface JSON parsers and database.
 * *Šimon Kautský* for the development of Anemone Mobile Client app both for iOS and Android in Unity3D and for solving all these ugly platform specific bugs.
 * *Filip Bursík* for the development of Arduino part of Anemone platform in C and for all those dreamless nights when the program did not fit the small Arduino YÚN memory.
 * *Michal Mlejnek* for the huge amount of Anemone Tentacle 3D case model iterations in Blender - including the final one which you can print and enjoy.
