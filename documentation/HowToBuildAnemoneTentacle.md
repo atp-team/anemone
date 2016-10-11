@@ -175,7 +175,7 @@ Before we move further, in order to avoid confusion, lets explain how some compo
 
 The *Buzzer YL-44* looks like this.
 
-TODO buzzer image
+<img class="icon" alt="Anemone Tentacle - Where buzzer YL-44 is o the wiring image" src="https://github.com/ceskasporitelna/anemone/blob/master/documentation/images/compilation_buzzer.png?raw=true" width="600" border="1">
 
 #### Rotary Encoder KY-040
 
