@@ -193,7 +193,7 @@ The connectors bindings (defined inside the "connectors" section) describe **bin
 
 Connector is a component of Anemone Cloud which provides access to other web services (like Twitter of CSAS WebAPI).
 
-Connectors are integrate in the Anemone Cloud. List of all existing connectors can be found [here](https://github.com/ceskasporitelna/anemone/tree/master/connectors). You can [create new connectors based on our manual](https://github.com/ceskasporitelna/anemone/blob/master/documentation/HowToMakeAnemoneConnector.md).
+Connectors are integrated in the Anemone Cloud. List of all existing connectors can be found [here](https://github.com/ceskasporitelna/anemone/tree/master/connectors). You can [create new connectors based on our manual](https://github.com/ceskasporitelna/anemone/blob/master/documentation/HowToMakeAnemoneConnector.md).
 
 The connector definition look like this:
 
