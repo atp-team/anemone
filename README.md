@@ -195,7 +195,7 @@ Connector is a component of Anemone Cloud which provides access to other web ser
 
 Connectors are integrated in the Anemone Cloud. List of all existing connectors can be found [here](https://github.com/ceskasporitelna/anemone/tree/master/connectors). You can [create new connectors based on our manual](https://github.com/ceskasporitelna/anemone/blob/master/documentation/HowToMakeAnemoneConnector.md).
 
-The connector definition look like this:
+The connector definition looks like this:
 
 ```json
 {
