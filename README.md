@@ -136,7 +136,7 @@ The *manifest.json* file describes list of **variables** and **bindings** which 
 
 ##### Variables
 
-Every *variable* has a **name** and **data type**. And in addition an information whenever it is **readable** (get) or **writeable** (set) from the *Tentacle* (the readability and writeablity from the Mobile Client is defined on other place of the *manifest.json* - in *bindings*).
+Every *variable* has a **name** and **data type**. And in addition an information whether it is **readable** (get) or **writeable** (set) from the *Tentacle* (the readability and writeablity from the Mobile Client is defined on other place of the *manifest.json* - in *bindings*).
 
 ```json
 {
