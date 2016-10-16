@@ -65,7 +65,7 @@ With Anemone Platform you can do the following:
 
 > Main goal of Anemone Platform is to provide a place where *Anemone Apps* can live.
 
-Anemone App is a tiny piece of software which can be **build by you**. We have designed the Anemone platform in a way that it will be extremely easy for you to make new Anemone Apps.
+Anemone App is a tiny piece of software which can be **built by you**. We have designed the Anemone platform in a way that it will be extremely easy for you to make new Anemone Apps.
 
 ### What is Anemone App?
 
@@ -83,7 +83,7 @@ Every of these three components of an Anemone App runs in one part of Anemone pl
 * **Cloud Logic** runs in the *Cloud*
 * **Tentacle User Interface and Logic** runs on the *Tentacle*
 
-When you create these three components you have successfully created an *Anemone App*. Every Anemone App is **explicitly defined by the these three components**.
+When you create these three components you have successfully created an *Anemone App*. Every Anemone App is **explicitly defined by these three components**.
 
 * *Mobile User Interface* is defined by an **interface.json** file
 * *Cloud Logic* is defined by an **manifest.json** file
@@ -91,9 +91,9 @@ When you create these three components you have successfully created an *Anemone
 
 #### Mobile User Interface (interface.json)
 
-The *interface.json* file describes list of **input** or **output** components which together form the user interface of Anemone App which is shown inside the Mobile Client when your Anemone App is open.
+The *interface.json* file describes list of **input** and **output** components which together form the user interface of Anemone App which is shown inside the Mobile Client when your Anemone App is open.
 
-Thought this interface you can either read data from your Anemone App or provide data input. All data are in fact loaded and stored to the Anemone Cloud (from where the Tentacle will load them).
+Through this interface you can either read data from your Anemone App or provide data input. All data are in fact loaded and stored in the Anemone Cloud (from where the Tentacle will load them).
 
 When defining the Anemone App Mobile User Interface you can use set of prepared components.
 
@@ -275,7 +275,7 @@ The complete *manifest.json* file can look like this:
 
 The last component of Anemone App is the one which will run on a Tentacle.
 
-This component is in fact an normal **arduino .ino sketch** file which runs on the *Arduino YÚN* which is "the brain" of a Tentacle.
+This component is in fact an **arduino .ino sketch** file which runs on the *Arduino YÚN* and is "the brain" of the Tentacle.
 
 In order to make the development of Anemone sketches easier, we have prepared the [anemone arduino library](https://github.com/ceskasporitelna/anemone/tree/master/toolkit/anemone-arduino-library) and default [Tentacle user interface components and screens](TODO).
 
