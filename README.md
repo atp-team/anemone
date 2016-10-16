@@ -38,7 +38,7 @@ Anemone has three main parts:
 
 <img alt="Anemone Mobile Client - List of Tentacles" src="https://github.com/ceskasporitelna/anemone/raw/master/documentation/images/mobile_client_1_tentacles_list.png" width="300"> <img alt="Anemone Mobile Client - Tentacle Detail" src="https://github.com/ceskasporitelna/anemone/raw/master/documentation/images/mobile_client_2_tentacle_detail.png" width="300">
 
-**Cloud** is the final component of the platform which connects the Tentacles to the Mobile Client. But that is not all. The Anemone Cloud can connect both the Mobile Client and Tentacles to other API service in the internet using **Connectors**.
+**Cloud** is the final component of the platform which connects the Tentacles to the Mobile Client. But that is not all. The Anemone Cloud can connect both the Mobile Client and Tentacles to other API service on the internet using **Connectors**.
 
 <img alt="Anemone Platform Architecture" src="https://github.com/ceskasporitelna/anemone/raw/master/documentation/images/anemone_architecture.png" width="600">
 
@@ -56,7 +56,7 @@ With Anemone Platform you can do the following:
 
 * You can display textual information from the the Anemone Cloud on Tentacle display *(information is stored inside variables in the cloud component of Anemone app)*
 * Tentacle can change value of variable of it's app cloud component (eg. when some button on the Tentacle is pressed or when some data is measured)
-* You can create so called "Anemone Apps" which contains variable which can be shown on Tentacle display and/or in the Mobile Client app. For you can let user enter some data using his mobile phone, adjust this data in the cloud and show result on the Tentacle. Or you can let user interact with the Tentacle and process this interaction in the cloud and show the result in the mobile app.
+* You can create so called "Anemone Apps" which contains variables which can be shown on Tentacle display and/or in the Mobile Client app. You can let user enter some data using his mobile phone, adjust this data in the cloud and show result on the Tentacle. Or you can let user interact with the Tentacle and process this interaction in the cloud and show the result in the mobile app.
 * The platform is done in a way that owner of a Tentacle can share it to his friend or change the running Anemone App using the OTA *(Over-The-Air)* update.
 
 > The **Anemone Platform is completely OPEN**. Everybody can [became a user by signing up for free](http://www.anemone.cloud/users/sign_up). Every user can either receive a guest access or can [build his own](https://github.com/ceskasporitelna/anemone/blob/master/documentation/HowToBuildAnemoneTentacle.md) Tentacle. To a Tentacle he can then install some apps from our [public repository of Anemone Apps](https://github.com/ceskasporitelna/anemone/tree/master/apps) or he can [create his own app](https://github.com/ceskasporitelna/anemone/blob/master/documentation/HowToMakeAnemoneApp.md).
