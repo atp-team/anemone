@@ -38,7 +38,7 @@ Anemone has three main parts:
 
 <img alt="Anemone Mobile Client - List of Tentacles" src="https://github.com/ceskasporitelna/anemone/raw/master/documentation/images/mobile_client_1_tentacles_list.png" width="300"> <img alt="Anemone Mobile Client - Tentacle Detail" src="https://github.com/ceskasporitelna/anemone/raw/master/documentation/images/mobile_client_2_tentacle_detail.png" width="300">
 
-**Cloud** is the final component of the platform which connects the Tentacles to the Mobile Client. But that is not all. The Anemone Cloud can connect both the Mobile Client and Tentacles to other API service in the internet using **Connectors**.
+**Cloud** is the final component of the platform which connects the Tentacles to the Mobile Client. But that is not all. The Anemone Cloud can connect both the Mobile Client and Tentacles to other API service on the internet using **Connectors**.
 
 <img alt="Anemone Platform Architecture" src="https://github.com/ceskasporitelna/anemone/raw/master/documentation/images/anemone_architecture.png" width="600">
 
@@ -56,16 +56,16 @@ With Anemone Platform you can do the following:
 
 * You can display textual information from the the Anemone Cloud on Tentacle display *(information is stored inside variables in the cloud component of Anemone app)*
 * Tentacle can change value of variable of it's app cloud component (eg. when some button on the Tentacle is pressed or when some data is measured)
-* You can create so called "Anemone Apps" which contains variable which can be shown on Tentacle display and/or in the Mobile Client app. For you can let user enter some data using his mobile phone, adjust this data in the cloud and show result on the Tentacle. Or you can let user interact with the Tentacle and process this interaction in the cloud and show the result in the mobile app.
+* You can create so called "Anemone Apps" which contains variables which can be shown on Tentacle display and/or in the Mobile Client app. You can let user enter some data using his mobile phone, adjust this data in the cloud and show result on the Tentacle. Or you can let user interact with the Tentacle and process this interaction in the cloud and show the result in the mobile app.
 * The platform is done in a way that owner of a Tentacle can share it to his friend or change the running Anemone App using the OTA *(Over-The-Air)* update.
 
-> The **Anemone Platform is completely OPEN**. Everybody can [became a user by signing up for free](http://www.anemone.cloud/users/sign_up). Every user can either receive a guest access or can [build his own](https://github.com/ceskasporitelna/anemone/blob/master/documentation/HowToBuildAnemoneTentacle.md) Tentacle. To a Tentacle he can then install some apps from our [public repository of Anemone Apps](https://github.com/ceskasporitelna/anemone/tree/master/apps) or he can [create his own app](https://github.com/ceskasporitelna/anemone/blob/master/documentation/HowToMakeAnemoneApp.md).
+> The **Anemone Platform is completely OPEN**. Everybody can [become a user by signing up for free](http://www.anemone.cloud/users/sign_up). Every user can either receive a guest access or can [build his own](https://github.com/ceskasporitelna/anemone/blob/master/documentation/HowToBuildAnemoneTentacle.md) Tentacle. One can then install some apps from our [public repository of Anemone Apps](https://github.com/ceskasporitelna/anemone/tree/master/apps) or he can [create his own app](https://github.com/ceskasporitelna/anemone/blob/master/documentation/HowToMakeAnemoneApp.md).
 
 ## How it works? 
 
 > Main goal of Anemone Platform is to provide a place where *Anemone Apps* can live.
 
-Anemone App is a tiny piece of software which can be **build by you**. We have designed the Anemone platform in a way that it will be extremely easy for you to make new Anemone Apps.
+Anemone App is a tiny piece of software which can be **built by you**. We have designed the Anemone platform in a way that it will be extremely easy for you to make new Anemone Apps.
 
 ### What is Anemone App?
 
@@ -83,7 +83,7 @@ Every of these three components of an Anemone App runs in one part of Anemone pl
 * **Cloud Logic** runs in the *Cloud*
 * **Tentacle User Interface and Logic** runs on the *Tentacle*
 
-When you create these three components you have successfully created an *Anemone App*. Every Anemone App is **explicitly defined by the these three components**.
+When you create these three components you have successfully created an *Anemone App*. Every Anemone App is **explicitly defined by these three components**.
 
 * *Mobile User Interface* is defined by an **interface.json** file
 * *Cloud Logic* is defined by an **manifest.json** file
@@ -91,9 +91,9 @@ When you create these three components you have successfully created an *Anemone
 
 #### Mobile User Interface (interface.json)
 
-The *interface.json* file describes list of **input** or **output** components which together form the user interface of Anemone App which is shown inside the Mobile Client when your Anemone App is open.
+The *interface.json* file describes list of **input** and **output** components which together form the user interface of Anemone App which is shown inside the Mobile Client when your Anemone App is open.
 
-Thought this interface you can either read data from your Anemone App or provide data input. All data are in fact loaded and stored to the Anemone Cloud (from where the Tentacle will load them).
+Through this interface you can either read data from your Anemone App or provide data input. All data are in fact loaded and stored in the Anemone Cloud (from where the Tentacle will load them).
 
 When defining the Anemone App Mobile User Interface you can use set of prepared components.
 
@@ -136,7 +136,7 @@ The *manifest.json* file describes list of **variables** and **bindings** which 
 
 ##### Variables
 
-Every *variable* has a **name** and **data type**. And in addition an information whenever it is **readable** (get) or **writeable** (set) from the *Tentacle* (the readability and writeablity from the Mobile Client is defined on other place of the *manifest.json* - in *bindings*).
+Every *variable* has a **name** and **data type**. And in addition an information whether it is **readable** (get) or **writeable** (set) from the *Tentacle* (the readability and writeablity from the Mobile Client is defined on other place of the *manifest.json* - in *bindings*).
 
 ```json
 {
@@ -193,9 +193,9 @@ The connectors bindings (defined inside the "connectors" section) describe **bin
 
 Connector is a component of Anemone Cloud which provides access to other web services (like Twitter of CSAS WebAPI).
 
-Connectors are integrate in the Anemone Cloud. List of all existing connectors can be found [here](https://github.com/ceskasporitelna/anemone/tree/master/connectors). You can [create new connectors based on our manual](https://github.com/ceskasporitelna/anemone/blob/master/documentation/HowToMakeAnemoneConnector.md).
+Connectors are integrated in the Anemone Cloud. List of all existing connectors can be found [here](https://github.com/ceskasporitelna/anemone/tree/master/connectors). You can [create new connectors based on our manual](https://github.com/ceskasporitelna/anemone/blob/master/documentation/HowToMakeAnemoneConnector.md).
 
-The connector definition look like this:
+The connector definition looks like this:
 
 ```json
 {
@@ -275,7 +275,7 @@ The complete *manifest.json* file can look like this:
 
 The last component of Anemone App is the one which will run on a Tentacle.
 
-This component is in fact an normal **arduino .ino sketch** file which runs on the *Arduino YÚN* which is "the brain" of a Tentacle.
+This component is in fact an **arduino .ino sketch** file which runs on the *Arduino YÚN* and is "the brain" of the Tentacle.
 
 In order to make the development of Anemone sketches easier, we have prepared the [anemone arduino library](https://github.com/ceskasporitelna/anemone/tree/master/toolkit/anemone-arduino-library) and default [Tentacle user interface components and screens](https://github.com/ceskasporitelna/anemone/blob/master/documentation/HowToMakeAnemoneApp.md#anemone-tentacle-screens).
 
@@ -338,7 +338,7 @@ In case of any question or issue, feel free to add a GitHub Issue in this reposi
 For their great effort we owe a BIG thank to the following people and entities from the joint project development team (everybody did *a lot more* then what was expected from him):
 
 * *Pedro Pinto da Silva* for the outstanding graphical design of the entire platform including website, mobile app, Arduino app UI and infographics. This platform design has a story.
-* *Martin Svoboda* for the development of Anemone Cloud Ruby on Rails application, manifest and interface JSON parsers and database.
+* *[Martin Svoboda](https://github.com/svobom57)* for the development of Anemone Cloud Ruby on Rails application, manifest and interface JSON parsers and database.
 * *Šimon Kautský* for the development of Anemone Mobile Client app both for iOS and Android in Unity3D and for solving all these ugly platform specific bugs.
 * *Filip Bursík* for the development of Arduino part of Anemone platform in C and for all those dreamless nights when the program did not fit the small Arduino YÚN memory.
 * *Michal Mlejnek* for the huge amount of Anemone Tentacle 3D case model iterations in Blender - including the final one which you can print and enjoy.
@@ -391,7 +391,7 @@ Anemone Platform is build using well known technologies you should not miss.
 
 > Arduino YÚN is able to **very often corrupt its memory and completely freeze**. *The Anemone platform is prepared to this* and in this case you can save the situation by performing the following:
 > 
-> 1. Try to SSH to your Tentacle, if that is still possible, run there the Tentacle initialization script (`tentacle.sh`) again (if you do not have it, feel free to download it again from Anemone Cloud). The `tentacle.sh` is designed to be [idempotent](https://en.wikipedia.org/wiki/Idempotence) *(which simply means that it is OK to run it multiple times)*. `tentacle.sh` will initialize the Tentacle once again, and once again will install the *Initial Sketch*. But after 60s in its update period the *Initial Sketch* will automatically detect that some Anemone App is already installed on the Tentacle and will automatically perform the OTA to it. And because the Anemone App state *(= its variables)* is always stored in Anemone Cloud, your app will be back up with all its data. This should solve you issue.
+> 1. Try to SSH to your Tentacle, if that is still possible, run there the Tentacle initialization script (`tentacle.sh`) again (if you do not have it, feel free to download it again from Anemone Cloud). The `tentacle.sh` is designed to be [idempotent](https://en.wikipedia.org/wiki/Idempotence) *(which simply means that it is OK to run it multiple times)*. `tentacle.sh` will initialize the Tentacle once again, and once again will install the *Initial Sketch*. But after 60s in its update period the *Initial Sketch* will automatically detect that some Anemone App is already installed on the Tentacle and will automatically perform the OTA to it. And because the Anemone App state *(= its variables)* is always stored in Anemone Cloud, your app will be back up with all its data. This should solve your issue.
 2. If the hints from step 1. did not help *(probably because the Tentacle/Arduino YÚN is no longer responding to anything, including SSH)*, try to turn the Tentacle off and on (by cutting power to it - do not rely on the onboard reset buttons). When you plug it to power again, wait till the Arduino YÚN completes its booting - it will turn on the **white LED** on its surface - **it takes around 5 mins**. Now your Tentacle might resume its normal operations (that means that your Anemone App should boot up). If not, try if at least the SSH is working and follow instructions from step 1.
 3. If even hints from step 2. were not helpful, your Arduino YÚN went completely stuck *(this happened multiple times to us durring the development of the platform ;))*. In this case nothing else than a **YÚN linux image reset** will help you. Follow instructions on the [official tutorial how to reset Arduino YÚN linux image](https://www.arduino.cc/en/Tutorial/YunSysupgrade). That usually helps. When done, follow with instructions from the step 1.
 

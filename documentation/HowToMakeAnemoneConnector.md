@@ -10,7 +10,7 @@ In this tutorial we will explain how Anemone Connectors work and how you can mak
 
 Anemone Connector is nothing else than a plain old ruby object (or class respectively).
 
-It needs to live inside the `Connectors` module and it needs to inherit from the `Connectors::Base` class:
+It must be inside the `Connectors` namespace and it must inherit from the `Connectors::Base` class:
 
 ```ruby
 module Connectors
@@ -20,7 +20,7 @@ module Connectors
 end
 ```
 
-It needs to define two public methods: `setup` and `call`.
+It must define two public methods: `setup` and `call`.
 
 ```ruby
 module Connectors
@@ -43,17 +43,18 @@ end
 
 The `call` method of your connector is called every time when the connector is invoked from an Anemone App.
 
-> Connectors are invoked every time when their input variable doed change its value.
+> Connectors are invoked every time when their input variable does change its value.
+
+*TODO: arguments of `call` method*
 
 Lets now further explore how the code inside the `call` method should look like:
 
 ```ruby
-# Takes 2 arguments: +input_variable_value+, and +API_KEY+
 def call(*args)
   self.setup # call() has to call setup()
   	
   # process arguments
-  input = args.fetch(0, 0) 	# value of input variable is at args[0]
+  input = args.fetch(0) 	# value of input variable is at args[0]
   api_key = args[1] 		# API_KEY is at args[1]
   	
   # load output variables (they are passed as args[2])
@@ -70,7 +71,7 @@ end
 Example of a connector `MyCoolConnector` with an input variable `varInput` and two output variables `varFoo` and `varBar` which will load new values of the two variables from the api endpoint `https://some-api.com/resource` from the respective JSON properties `"foo"` and `"bar"` might look like this: 
 
 ```ruby
-# Takes 2 arguments: +input_variable_value+, and +API_KEY+
+# Takes 2 arguments: +input_variable_value+, and +API_KEY+, the last argument is hash of output variables
 def call(*args)
   self.setup # call() has to call setup()
   	
