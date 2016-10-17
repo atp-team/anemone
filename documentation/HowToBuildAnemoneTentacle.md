@@ -145,27 +145,31 @@ For a minimal Tentacle, you will need the following:
 
 ## Step 2 - Build Tentacle electronic circuits
 
-The completed Anemone Tentacle electronic circuit should look like this:
-
-<img class="icon" alt="Anemone Tentacle - Electrical Circuit Wiring" src="https://github.com/ceskasporitelna/anemone/blob/master/documentation/images/anemone_tentacle_breadboard.png?raw=true" width="600">
-
-the scheme is the following:
+The Anemone Tentacle electronic circuit has the following scheme:
 
 <img class="icon" alt="Anemone Tentacle - Electrical Circuit Scheme" src="https://github.com/ceskasporitelna/anemone/blob/master/documentation/images/anemone_tentacle_prototype_scheme.png?raw=true" width="600">
 
-And it looks like this when assembled (without the case):
+The **simplified** wiring image looks like this:
 
-TODO assemled Tentacle image
-
-In order to understand it better, we have created a simplified wiring image as well. In this image we have removed all passive components *(like a prototype shield or stripboard)* and have replaced them by a classic breadboard.
-
+> In order to let you understand the Tentacle wiring better, we have created a simplified wiring image. In this image we have **removed all passive components** *(like a prototype shield or stripboard)* and have replaced them by a classic breadboard.
+ 
 <img class="icon" alt="Anemone Tentacle - Simplified Electrical Circuit Wiring" src="https://github.com/ceskasporitelna/anemone/blob/master/documentation/images/anemone_tentacle_prototype_breadboard.png?raw=true" width="600">
 
-In addition we have created an image where the `VCC` is shown as a **Red wire** and `GND` as a **Black wire**.
+In addition we have created an image where the `VCC` (5V) is shown as a **Red wire**, VCC (3.3V) is shown as a **Pink wire** and `GND` as a **Black wire**.
 
 <img class="icon" alt="Anemone Tentacle - Simplified Electrical Circuit Wiring VCC GND" src="https://github.com/ceskasporitelna/anemone/blob/master/documentation/images/anemone_tentacle_prototype_breadboard_VCC_GND.png?raw=true" width="600">
 
-Below we will explain the Anemone Tentacle wiring construction step by step.
+The final *(not simplified)* wiring of a Tentacle then looks like this:
+
+<img class="icon" alt="Anemone Tentacle - Electrical Circuit Wiring" src="https://github.com/ceskasporitelna/anemone/blob/master/documentation/images/anemone_tentacle_breadboard.png?raw=true" width="600">
+
+And this is how Tentacle looks like this when assembled *(without the case)*:
+
+TODO assemled Tentacle image
+
+> These assebled electrical circuits should the be put inside the *Anemone Tentacle Case* which is described later below.
+
+Below we will explain the Anemone Tentacle wiring construction **step by step**.
 
 ### Step 2.1 - Introduction
 
@@ -175,31 +179,31 @@ Before we move further, in order to avoid confusion, lets explain how some compo
 
 The *Buzzer YL-44* looks like this.
 
-<img class="icon" alt="Anemone Tentacle - Where buzzer YL-44 is o the wiring image" src="https://github.com/ceskasporitelna/anemone/blob/master/documentation/images/compilation_buzzer.png?raw=true" width="600" border="1">
+<img class="icon" alt="Anemone Tentacle - Where buzzer YL-44 is o the wiring image" src="https://github.com/ceskasporitelna/anemone/blob/master/documentation/images/compilation_buzzer.png?raw=true" width="600">
 
 #### Rotary Encoder KY-040
 
 The *Rotary Encoder KY-040* looks like this.
 
-TODO encoder image
+<img class="icon" alt="Anemone Tentacle - Where buzzer YL-44 is o the wiring image" src="https://github.com/ceskasporitelna/anemone/blob/master/documentation/images/compilation_encoder.png?raw=true" width="600" border="1">
 
 #### Arduino Prototype Shield
 
 The grey wires mess is in fact the *Arduino Prototype Shield* pluged to Arduino YÚN.
 
-TODO shield image
+<img class="icon" alt="Anemone Tentacle - Where buzzer YL-44 is o the wiring image" src="https://github.com/ceskasporitelna/anemone/blob/master/documentation/images/compilation_tentacle_shield.png?raw=true" width="600">
 
 #### RJ-11 I2C Bus Socket
 
 The RJ-11 socket is used as an output for I2C bus.
 
-TODO i2c image
+<img class="icon" alt="Anemone Tentacle - Where buzzer YL-44 is o the wiring image" src="https://github.com/ceskasporitelna/anemone/blob/master/documentation/images/compilation_i2c.png?raw=true" width="600">
 
 #### Arduino TFT Display
 
 What looks like some Adafruit Display is in fact the original *Arduino TFT Display*. We were just not able to find better part in Fritzing for it.
 
-TODO tft image
+<img class="icon" alt="Anemone Tentacle - Where buzzer YL-44 is o the wiring image" src="https://github.com/ceskasporitelna/anemone/blob/master/documentation/images/compilation_tft.png?raw=true" width="600">
 
 And the rest is as it seems to be. A few resistors, optocouplers, buttons and LEDs.
 
