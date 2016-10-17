@@ -37,14 +37,14 @@ The Anemone Tentacle 3D case is available either as [.stl files of 9 individual 
 * The Top Button Lever
 * The Menu Knob Cover
 * The Front Button
-* The Top *(LEGO® compatible)* cover
+* The Top *(LEGO® compatible)* Cover
 * The Front Display Frame
 
 Or as three [*ready-to-print* .stl files](TODO) with all components assigned into three groups *(with slightly different print settings)* :
 
 1. Bottom and Insides
 2. Walls
-3. Top and Display covers
+3. Top and Display Covers
 
 > In addition to the [.stl *ready-to-print* file for every print group](TODO) you can download a exported [gcode files for the *Prusa i3 MK2 3D Printer* with ABS filament setting](TODO). We have use these gcode files to print our version of Anemone Tentacle on *Kanárek*. 
 
@@ -54,17 +54,49 @@ TODO image 3D model in slic3r - part1 - bottom and insides
 
 The first print group consists of case bottom part, internal components and all knobs and buttons.
 
+##### How it looks 3D printed
+
+> The print time for the first print group *Bottom and Insides* is `3 hours 30 minutes` with the recommended print settings.
+
+TODO printed images group 1
+
+After removing supports your print should look similar to this:
+
+> Only the *The Top Button Lodge* and *The Bottom Part* pieces do have few scaffolds.
+
+TODO printed images group 1 without scaffolds 
+
 #### Walls
 
 TODO image 3D model in slic3r - part2 - walls
 
 The second print group is the case walls.
 
+##### How it looks 3D printed
+
+> The print time for the second print group *Walls* is `4 hours 54 minutes` with the recommended print settings.
+
+TODO printed images group 2
+
+After removing supports your print should look similar to this:
+
+TODO printed images group 2 without scaffolds
+
 #### Top and Display covers
 
 TODO image 3D model in slic3r - part3 - top and display covers
 
 The last print group contains the top LEGO® compatible cover piece and display frame cover.
+
+##### How it looks 3D printed
+
+> The print time for the third print group *Top and Display Covers* is `41 minutes` with the recommended print settings.
+
+TODO printed images group 3
+
+> The *The Top Cover* piece may require some cleanup before it will fit *The Walls* piece. You may want to print this group with **just 2 perimeters instead of 5** if you are not able to fit it even after cleanup. Depending on your 3D printer and filament. We have intentionally designed this piece to have a good and strong grip with the *The Walls* piece.
+
+This print group does not require any supports.
 
 ### Recommended print settings
 
@@ -74,6 +106,8 @@ We have used the [Slic3r](http://slic3r.org/) for slicing the `.stl` files into 
 
 > Anemone Tentacle case looks awesome even on low print settings - which looks nice with a semi-transparent filament.
 
+TODO assembled empty case photo
+
 #### Global settings
 
 * Filament: **ABS 1.75mm**
@@ -82,6 +116,8 @@ We have used the [Slic3r](http://slic3r.org/) for slicing the `.stl` files into 
 * Layer height: **0.35mm**
 * First layer height: **0.15mm**
 * Perimeters: **1**
+* Top Solid Layers: **2**
+* Bottom Solid Layers: **2**
 * Infill density: **15%**
 * Infill pattern: **Honeycomb**
 * Skirt: **1**
@@ -94,13 +130,21 @@ Detailed settings are slightly different for each of the three recommended print
 
 1. Bottom and Insides
 	* Infill density: **20%** 
+	* Perimeters: **1**
+	* Brim: **0mm**
+	* Support: **Yes**
+	* Support Pattern: **Rectilinear**
 2. Walls
+	* Infill density: **15%**
+	* Perimeters: **1**
 	* Brim: **5mm**
 	* Support: **Yes**
 	* Support Pattern: **Pillars**
 3. Top and Display covers
-	* Infill density: **20%** 
+	* Infill density: **20%**
 	* Perimeters: **5**
+	* Brim: **0mm**
+	* Support: **No**
 
 ### Tips and Tricks
 
