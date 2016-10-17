@@ -50,7 +50,7 @@ Or as three [*ready-to-print* .stl files](TODO) with all components assigned int
 
 #### Bottom and Insides
 
-TODO image 3D model in slic3r - part1 - bottom and insides
+<img alt="Anemone Tentacle in Slic3er - Bottom and Insides - 3D Model" src="https://github.com/ceskasporitelna/anemone/blob/master/documentation/images/slic3r/1_bottom_and_insides_3d.png?raw=true" width="300"> <img alt="Anemone Tentacle in Slic3er - Bottom and Insides - Layers Preview" src="https://github.com/ceskasporitelna/anemone/blob/master/documentation/images/slic3r/1_bottom_and_insides_preview.png?raw=true" width="300">
 
 The first print group consists of case bottom part, internal components and all knobs and buttons.
 
@@ -68,7 +68,7 @@ TODO printed images group 1 without scaffolds
 
 #### Walls
 
-TODO image 3D model in slic3r - part2 - walls
+<img alt="Anemone Tentacle in Slic3er - Walls - 3D Model" src="https://github.com/ceskasporitelna/anemone/blob/master/documentation/images/slic3r/2_walls_3d.png?raw=true" width="300"> <img alt="Anemone Tentacle in Slic3er - Walls - Layers Preview" src="https://github.com/ceskasporitelna/anemone/blob/master/documentation/images/slic3r/2_walls_preview.png?raw=true" width="300">
 
 The second print group is the case walls.
 
@@ -82,11 +82,11 @@ After removing supports your print should look similar to this:
 
 TODO printed images group 2 without scaffolds
 
-#### Top and Display covers
+#### Top and Display Covers
 
-TODO image 3D model in slic3r - part3 - top and display covers
+<img alt="Anemone Tentacle in Slic3er - Top and Display covers - 3D Model" src="https://github.com/ceskasporitelna/anemone/blob/master/documentation/images/slic3r/3_top_and_display_covers_3d.png?raw=true" width="300"> <img alt="Anemone Tentacle in Slic3er - Top and Display Covers - Layers Preview" src="https://github.com/ceskasporitelna/anemone/blob/master/documentation/images/slic3r/3_top_and_display_covers_preview.png?raw=true" width="300">
 
-The last print group contains the top LEGO® compatible cover piece and display frame cover.
+The last print group contains the top *LEGO® compatible* cover piece and display frame cover.
 
 ##### How it looks 3D printed
 
