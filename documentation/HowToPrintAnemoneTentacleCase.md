@@ -4,6 +4,8 @@ In this tutorial, we will guide you throught the 3D printing the *Anemone Tentac
 
 > Anemone Tentacle case is in fact the very **first 3D printed Arduino YÚN case which is using the Arduino TFT Display** in the world! An it can be used even outside of the Anemone Platform. Feel free to use it even for your other projects ;).
 
+Anemone Tentacle case looks is shown on the following images.
+
 #### Wired
 
 <img alt="Anemone Tentacle Wired 3D Model Left - Inside" src="https://github.com/ceskasporitelna/anemone/blob/master/documentation/images/renders/wired/wired_left_inside.jpg?raw=true" width="200">
