@@ -20,7 +20,7 @@ The Anemone Tentacle 3D model has been created in Blender and if you like you ca
 
 But we have provided [.stl exports](TODO) for you as well.
 
-TODO image 3D model in blender
+<img alt="Anemone Tentacle 3D Model in Blender A" src="https://github.com/ceskasporitelna/anemone/blob/master/documentation/images/blender/blender1.jpg?raw=true" width="300"> <img alt="Anemone Tentacle 3D Model in Blender B" src="https://github.com/ceskasporitelna/anemone/blob/master/documentation/images/blender/blender2.jpg?raw=true" width="300">
 
 Anemone Tentacle case consists of the following parts:
 
