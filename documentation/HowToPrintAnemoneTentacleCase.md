@@ -4,11 +4,29 @@ In this tutorial, we will guide you throught the 3D printing the *Anemone Tentac
 
 > Anemone Tentacle case is in fact the very **first 3D printed Arduino YÚN case which is using the Arduino TFT Display** in the world! An it can be used even outside of the Anemone Platform. Feel free to use it even for your other projects ;).
 
-TODO image 3D model wired
+#### Wired
 
-TODO image 3D model shaded
+<img alt="Anemone Tentacle Wired 3D Model Left - Inside" src="https://github.com/ceskasporitelna/anemone/blob/master/documentation/images/renders/wired/wired_left_inside.jpg?raw=true" width="200">
+ <img alt="Anemone Tentacle Wired 3D Model Left - Parts" src="https://github.com/ceskasporitelna/anemone/blob/master/documentation/images/renders/wired/wired_left_parts.jpg?raw=true" width="200"> <img alt="Anemone Tentacle Wired 3D Model Left - Whole Case" src="https://github.com/ceskasporitelna/anemone/blob/master/documentation/images/renders/wired/wired_left_empty.jpg?raw=true" width="200">
+
+<img alt="Anemone Tentacle Wired 3D Model Right - Inside" src="https://github.com/ceskasporitelna/anemone/blob/master/documentation/images/renders/wired/wired_right_inside.jpg?raw=true" width="200">
+ <img alt="Anemone Tentacle Wired 3D Model Right - Parts" src="https://github.com/ceskasporitelna/anemone/blob/master/documentation/images/renders/wired/wired_right_parts.jpg?raw=true" width="200"> <img alt="Anemone Tentacle Wired 3D Model Right - Whole Case" src="https://github.com/ceskasporitelna/anemone/blob/master/documentation/images/renders/wired/wired_right_empty.jpg?raw=true" width="200">
+ 
+#### Shaded
+
+<img alt="Anemone Tentacle Shaded 3D Model Left - Inside" src="https://github.com/ceskasporitelna/anemone/blob/master/documentation/images/renders/shaded/shaded_left_inside.jpg?raw=true" width="200"> <img alt="Anemone Tentacle Shaded 3D Model Left - Parts" src="https://github.com/ceskasporitelna/anemone/blob/master/documentation/images/renders/shaded/shaded_left_parts.jpg?raw=true" width="200"> <img alt="Anemone Tentacle Shaded 3D Model Left - Whole Case" src="https://github.com/ceskasporitelna/anemone/blob/master/documentation/images/renders/shaded/shaded_left_empty.jpg?raw=true" width="200"> <img alt="Anemone Tentacle Shaded 3D Model Left - Complete" src="https://github.com/ceskasporitelna/anemone/blob/master/documentation/images/renders/shaded/shaded_left_complete.jpg?raw=true" width="200">
+
+<img alt="Anemone Tentacle Shaded 3D Model Right - Inside" src="https://github.com/ceskasporitelna/anemone/blob/master/documentation/images/renders/shaded/shaded_right_inside.jpg?raw=true" width="200"> <img alt="Anemone Tentacle Shaded 3D Model Right - Parts" src="https://github.com/ceskasporitelna/anemone/blob/master/documentation/images/renders/shaded/shaded_right_parts.jpg?raw=true" width="200"> <img alt="Anemone Tentacle Shaded 3D Model Right - Whole Case" src="https://github.com/ceskasporitelna/anemone/blob/master/documentation/images/renders/shaded/shaded_right_empty.jpg?raw=true" width="200"> <img alt="Anemone Tentacle Shaded 3D Model Right - Complete" src="https://github.com/ceskasporitelna/anemone/blob/master/documentation/images/renders/shaded/shaded_right_complete.jpg?raw=true" width="200">
+
+#### Rendered
 
 TODO image 3D model rendered
+
+#### Video
+
+TODO video link
+
+#### Printed
 
 TODO final Anemone Tentacle printed and running
 
@@ -151,7 +169,7 @@ Detailed settings are slightly different for each of the three recommended print
 * When printing with ABS you HAVE TO to use the heated bed!
 * The second print group (The Walls) **needs to have brim** which helps the print to stay connected to bed and not bend while printing (we use 5mm).
 * The second print group (The Walls) **needs to be printed with supports** (we recommend **pillars** type if you use [Slic3r](http://slic3r.org/)).
-* Best infill type is Honeycomb with 15% density for The Walls part which even helps to achieve the nice light reflecting effects with a semi-transparent filament.
+* Best infill type is Honeycomb with 15% density for *The Walls* part which even helps to achieve the nice light reflecting effects with a semi-transparent filament.
 
 ### How it looks 3D printed
 
