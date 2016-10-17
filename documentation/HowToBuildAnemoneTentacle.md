@@ -4,7 +4,7 @@ Anemone Tentacle is a DIY Open Hardware device you can build and 3D print a cute
 
 > Tentacle is fully Open Hardware device based on Arduino YÚN and Arduino TFT Display. It can be used as part of [Anemone Platform](http://www.anemone.cloud) or completelly standalone as a nice case for Arduino YÚN and Arduino TFT display.
 
-## What does Tentacle look like?
+## How Tentacle looks like?
 
 TODO 2 images
 
@@ -299,6 +299,10 @@ TODO image of completed display board
 
 #### Step 2.2.8 - I2C RJ-11 Socket Wiring
 
+The RJ-11 socket which will be used for I2C bus looks like this when prepared to be wired:
+
+<img alt="Anemone Tentacle - I2C RJ-11 Socket prepared to be wired" src="https://github.com/ceskasporitelna/anemone/blob/master/documentation/images/tentacle_i2c.jpg?raw=true" width="300">
+
 ### Step 2.3 - Tentacle electronic circuits assembly
 
 #### Step 2.3.1 - Tentacle Shield
@@ -429,9 +433,15 @@ Your Anemone Tentacle should now look like this:
 
 <img alt="Anemone Tentacle - Assembly step 11 - Complete Tentacle Wiring" src="https://github.com/ceskasporitelna/anemone/blob/master/documentation/images/anemone_tentacle_build_11_done.png?raw=true" width="600">
 
-TODO add photos for step 11
+When assembled the Tentacle electronic circuits looks like this (without the case):
+
+<img alt="Anemone Tentacle - Assembled Electronic Circuits without case" src="https://github.com/ceskasporitelna/anemone/blob/master/documentation/images/assembled_tentacle_insides.jpg?raw=true" width="600">
 
 > We recommend testing the Tentacle electronic circuits after inserting them intro the bottom part of the **Anemone Tentacle Case** in the *Step 4*.
+
+When put inside the bottom part of the case it looks like this:
+
+TODO bottom tentacle part image with electronic circuits
 
 ## Step 3 - 3D print Tentacle case
 
