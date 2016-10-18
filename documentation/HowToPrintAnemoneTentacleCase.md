@@ -100,6 +100,8 @@ The second print group is the case walls.
 
 TODO printed images group 2
 
+<img alt="Anemone Tentacle 3D Print Group 1 - On Printer" src="https://github.com/ceskasporitelna/anemone/blob/master/documentation/images/printed/1_on_printer_right.jpg?raw=true" width="300">
+
 After removing supports your print should look similar to this:
 
 TODO printed images group 2 without scaffolds
@@ -169,6 +171,10 @@ Detailed settings are slightly different for each of the three recommended print
 	* Support: **No**
 
 ### Tips and Tricks
+
+These tools will help you with 3D printing *(and removing the supports from the printed model)*:
+
+<img alt="3D printing tools" src="https://github.com/ceskasporitelna/anemone/blob/master/documentation/images/3d_print_tools.jpg?raw=true" width="300">
 
 * When printing with ABS you HAVE TO to use the heated bed!
 * The second print group (The Walls) **needs to have brim** which helps the print to stay connected to bed and not bend while printing (we use 5mm).
