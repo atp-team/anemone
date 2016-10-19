@@ -118,7 +118,11 @@ The last print group contains the top *LEGO® compatible* cover piece and displa
 
 > The print time for the third print group *Top and Display Covers* is `41 minutes` with the recommended print settings.
 
-TODO printed images group 3
+<img alt="Anemone Tentacle 3D Print Group 3 - On Printer" src="https://github.com/ceskasporitelna/anemone/blob/master/documentation/images/printed/3_on_printer.jpg?raw=true" height="200"> <img alt="Anemone Tentacle 3D Print Group 3 - On Printer Right" src="https://github.com/ceskasporitelna/anemone/blob/master/documentation/images/printed/3_on_printer_right.jpg?raw=true" height="200"> <img alt="Anemone Tentacle 3D Print Group 3 - On Printer Top" src="https://github.com/ceskasporitelna/anemone/blob/master/documentation/images/printed/3_on_printer_top.jpg?raw=true" height="200"> <img alt="Anemone Tentacle 3D Print Group 3 - Print Time" src="https://github.com/ceskasporitelna/anemone/blob/master/documentation/images/printed/3_print_time.jpg?raw=true" height="200">
+
+After removing from the print bed your print should look similar to this:
+
+<img alt="Anemone Tentacle 3D Print Group 3 - Printed Front" src="https://github.com/ceskasporitelna/anemone/blob/master/documentation/images/printed/3_printed_front_supports.jpg?raw=true" height="150"> <img alt="Anemone Tentacle 3D Print Group 3 - Printed Left" src="https://github.com/ceskasporitelna/anemone/blob/master/documentation/images/printed/3_printed_left_supports.jpg?raw=true" height="150"> <img alt="Anemone Tentacle 3D Print Group 3 - Printed Right" src="https://github.com/ceskasporitelna/anemone/blob/master/documentation/images/printed/3_printed_right_supports.jpg?raw=true" height="150"> <img alt="Anemone Tentacle 3D Print Group 3 - Printed Top" src="https://github.com/ceskasporitelna/anemone/blob/master/documentation/images/printed/3_printed_top_supports.jpg?raw=true" height="150">
 
 > The *The Top Cover* piece may require some cleanup before it will fit *The Walls* piece. You may want to print this group with **just 2 perimeters instead of 5** if you are not able to fit it even after cleanup. Depending on your 3D printer and filament. We have intentionally designed this piece to have a good and strong grip with the *The Walls* piece.
 
