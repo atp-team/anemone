@@ -80,13 +80,11 @@ The first print group consists of case bottom part, internal components and all 
 
 > The print time for the first print group *Bottom and Insides* is `3 hours 30 minutes` with the recommended print settings.
 
-TODO printed images group 1
-
 <img alt="Anemone Tentacle 3D Print Group 1 - On Printer" src="https://github.com/ceskasporitelna/anemone/blob/master/documentation/images/printed/1_on_printer.jpg?raw=true" height="200"> <img alt="Anemone Tentacle 3D Print Group 1 - On Printer Right" src="https://github.com/ceskasporitelna/anemone/blob/master/documentation/images/printed/1_on_printer_right.jpg?raw=true" height="200"> <img alt="Anemone Tentacle 3D Print Group 1 - On Printer Top" src="https://github.com/ceskasporitelna/anemone/blob/master/documentation/images/printed/1_on_printer_top.jpg?raw=true" height="200"> <img alt="Anemone Tentacle 3D Print Group 1 - Print Time" src="https://github.com/ceskasporitelna/anemone/blob/master/documentation/images/printed/1_print_time.jpg?raw=true" height="200">
 
-After removing from print bed your print should look similar to this:
+After removing from the print bed your print should look similar to this:
 
-> Only the *The Top Button Lodge* and *The Bottom Part* pieces do have few scaffolds.
+> Only the *The Top Button Lodge* and *The Bottom Part* pieces do have few supports.
 
 <img alt="Anemone Tentacle 3D Print Group 1 - Printed Front" src="https://github.com/ceskasporitelna/anemone/blob/master/documentation/images/printed/1_printed_front.jpg?raw=true" height="150"> <img alt="Anemone Tentacle 3D Print Group 1 - Printed Left" src="https://github.com/ceskasporitelna/anemone/blob/master/documentation/images/printed/1_printed_left.jpg?raw=true" height="150"> <img alt="Anemone Tentacle 3D Print Group 1 - Printed Right" src="https://github.com/ceskasporitelna/anemone/blob/master/documentation/images/printed/1_printed_right.jpg?raw=true" height="150"> <img alt="Anemone Tentacle 3D Print Group 1 - Printed Top" src="https://github.com/ceskasporitelna/anemone/blob/master/documentation/images/printed/1_printed_top.jpg?raw=true" height="150">
 
@@ -100,11 +98,15 @@ The second print group is the case walls.
 
 > The print time for the second print group *Walls* is `4 hours 54 minutes` with the recommended print settings.
 
-TODO printed images group 2
+<img alt="Anemone Tentacle 3D Print Group 2 - On Printer" src="https://github.com/ceskasporitelna/anemone/blob/master/documentation/images/printed/2_on_printer.jpg?raw=true" height="200"> <img alt="Anemone Tentacle 3D Print Group 2 - On Printer Right" src="https://github.com/ceskasporitelna/anemone/blob/master/documentation/images/printed/2_on_printer_right.jpg?raw=true" height="200"> <img alt="Anemone Tentacle 3D Print Group 2 - On Printer Top" src="https://github.com/ceskasporitelna/anemone/blob/master/documentation/images/printed/2_on_printer_top.jpg?raw=true" height="200"> <img alt="Anemone Tentacle 3D Print Group 2 - Print Time" src="https://github.com/ceskasporitelna/anemone/blob/master/documentation/images/printed/2_print_time.jpg?raw=true" height="200">
+
+After removing from the print bed your print should look similar to this:
+
+<img alt="Anemone Tentacle 3D Print Group 2 - Printed Front" src="https://github.com/ceskasporitelna/anemone/blob/master/documentation/images/printed/2_printed_front_supports.jpg?raw=true" height="150"> <img alt="Anemone Tentacle 3D Print Group 2 - Printed Left" src="https://github.com/ceskasporitelna/anemone/blob/master/documentation/images/printed/2_printed_left_supports.jpg?raw=true" height="150"> <img alt="Anemone Tentacle 3D Print Group 2 - Printed Right" src="https://github.com/ceskasporitelna/anemone/blob/master/documentation/images/printed/2_printed_right_supports.jpg?raw=true" height="150"> <img alt="Anemone Tentacle 3D Print Group 2 - Printed Top" src="https://github.com/ceskasporitelna/anemone/blob/master/documentation/images/printed/2_printed_top_supports.jpg?raw=true" height="150">
 
 After removing supports your print should look similar to this:
 
-TODO printed images group 2 without scaffolds
+<img alt="Anemone Tentacle 3D Print Group 2 - Printed Front" src="https://github.com/ceskasporitelna/anemone/blob/master/documentation/images/printed/2_printed_front.jpg?raw=true" height="150"> <img alt="Anemone Tentacle 3D Print Group 2 - Printed Left" src="https://github.com/ceskasporitelna/anemone/blob/master/documentation/images/printed/2_printed_left.jpg?raw=true" height="150"> <img alt="Anemone Tentacle 3D Print Group 2 - Printed Right" src="https://github.com/ceskasporitelna/anemone/blob/master/documentation/images/printed/2_printed_right.jpg?raw=true" height="150"> <img alt="Anemone Tentacle 3D Print Group 2 - Printed Top" src="https://github.com/ceskasporitelna/anemone/blob/master/documentation/images/printed/2_printed_top.jpg?raw=true" height="150">
 
 #### Top and Display Covers
 
