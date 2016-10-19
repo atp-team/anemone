@@ -82,7 +82,7 @@ The first print group consists of case bottom part, internal components and all 
 
 TODO printed images group 1
 
-<img alt="Anemone Tentacle 3D Print Group 1 - On Printer" src="https://github.com/ceskasporitelna/anemone/blob/master/documentation/images/printed/1_on_printer.jpg?raw=true" width="150"> <img alt="Anemone Tentacle 3D Print Group 1 - On Printer Right" src="https://github.com/ceskasporitelna/anemone/blob/master/documentation/images/printed/1_on_printer_right.jpg?raw=true" width="150"> <img alt="Anemone Tentacle 3D Print Group 1 - On Printer Top" src="https://github.com/ceskasporitelna/anemone/blob/master/documentation/images/printed/1_on_printer_top.jpg?raw=true" width="150"> <img alt="Anemone Tentacle 3D Print Group 1 - Print Time" src="https://github.com/ceskasporitelna/anemone/blob/master/documentation/images/printed/1_print_time.jpg?raw=true" width="150">
+<img alt="Anemone Tentacle 3D Print Group 1 - On Printer" src="https://github.com/ceskasporitelna/anemone/blob/master/documentation/images/printed/1_on_printer.jpg?raw=true" height="200"> <img alt="Anemone Tentacle 3D Print Group 1 - On Printer Right" src="https://github.com/ceskasporitelna/anemone/blob/master/documentation/images/printed/1_on_printer_right.jpg?raw=true" height="200"> <img alt="Anemone Tentacle 3D Print Group 1 - On Printer Top" src="https://github.com/ceskasporitelna/anemone/blob/master/documentation/images/printed/1_on_printer_top.jpg?raw=true" height="200"> <img alt="Anemone Tentacle 3D Print Group 1 - Print Time" src="https://github.com/ceskasporitelna/anemone/blob/master/documentation/images/printed/1_print_time.jpg?raw=true" height="200">
 
 After removing from print bed your print should look similar to this:
 
