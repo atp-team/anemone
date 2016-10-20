@@ -48,10 +48,6 @@ But we have provided [.stl exports](TODO) for you as well.
 
 Anemone Tentacle consists of the following components:
 
-TODO image with arrows and part names
-
-<img alt="Anemone Tentacle Parts Description Left" src="https://github.com/ceskasporitelna/anemone/blob/master/documentation/images/renders/numbered/left.png?raw=true" width="300"> <img alt="Anemone Tentacle Parts Description Right" src="https://github.com/ceskasporitelna/anemone/blob/master/documentation/images/renders/numbered/right.png?raw=true" width="300">
-
 <img alt="Anemone Tentacle Parts Description Left" src="https://github.com/ceskasporitelna/anemone/blob/master/documentation/images/renders/numbered/left_big.png?raw=true" width="300"> <img alt="Anemone Tentacle Parts Description Right" src="https://github.com/ceskasporitelna/anemone/blob/master/documentation/images/renders/numbered/right_big.png?raw=true" width="300">
 
 1. Top LEDs

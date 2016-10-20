@@ -441,11 +441,13 @@ When assembled the Tentacle electronic circuits looks like this (without the cas
 
 <img alt="Anemone Tentacle - Assembled Electronic Circuits without case" src="https://github.com/ceskasporitelna/anemone/blob/master/documentation/images/assembled_tentacle_insides.jpg?raw=true" width="600">
 
-> We recommend testing the Tentacle electronic circuits after inserting them intro the bottom part of the **Anemone Tentacle Case** in the *Step 4*.
+> We recommend testing the Tentacle electronic circuits after inserting them into the bottom part of the **Anemone Tentacle Case** in the *Step 4*.
 
 When put inside the bottom part of the case it looks like this:
 
 TODO bottom tentacle part image with electronic circuits
+
+> The Anemone Tentacle assembly instruction *(eg. how to put the electronic circuits into the 3D printed case)* are provided below.
 
 ## Step 3 - 3D print Tentacle case
 
@@ -457,15 +459,50 @@ Next step is to 3D print the *Anemone Tentacle case*.
 
 With the Anemone Tentacle case 3D printed and all electronic components assembled we can **approach the Anemone Tentacle assembly**.
 
+### 4.1 Tentacle Components
+
+Anemone Tentacle consists of the following components:
+
+<img alt="Anemone Tentacle Parts Description Left" src="https://github.com/ceskasporitelna/anemone/blob/master/documentation/images/renders/numbered/left_big.png?raw=true" width="300"> <img alt="Anemone Tentacle Parts Description Right" src="https://github.com/ceskasporitelna/anemone/blob/master/documentation/images/renders/numbered/right_big.png?raw=true" width="300">
+
+1. Top LEDs
+2. Tentacle Shield
+3. Arduino YÚN
+4. Display Board
+5. Cloud Button
+6. Buzzer YL-44
+7. Arduino TFT Display
+8. Top Button
+9. RJ-11 I2C Socket
+10. Rotary Encoder KY-040
+
+### 4.2 Preparation
+
+First gather all the Tentacle parts on one place in front of you.
+
+You will need all parts of the 3D printed case.
+
 TODO image with all parts ready for assembly
+
+And the assembled Tentacle electronic circuits.
 
 TODO image with Tentacle without a case
 
+### 4.3 Assembly
+
+When assembled your Tentacle should look like this:
+
 TODO image with Tentacle in a case
+
+As a last step, you should add the Top Cover:
 
 TODO image with assembled Tentacle without top cover
 
+And your Tentacle is ready!
+
 TODO image with assembled Tentacle with top cover
+
+In order to make your life easier, we have create a video with shows the whole Tentacle assembly process.
 
 TODO assembly video
 
