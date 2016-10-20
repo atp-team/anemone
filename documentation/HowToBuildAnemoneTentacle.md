@@ -16,7 +16,7 @@ TODO 2 printed images
 
 Tentacle has three hardware controls which you can see on the following image:
 
-<img class="icon" alt="Anemone Tentacle - Interactive parts" src="https://github.com/ceskasporitelna/anemone/blob/master/documentation/images/renders/tentacle_interactive_parts.png?raw=true" width="600">
+<img class="icon" alt="Anemone Tentacle - Interactive parts" src="https://github.com/ceskasporitelna/anemone/blob/master/documentation/images/renders/tentacle_interactive_parts.png?raw=true" width="300">
 
 > The interactive parts are shown in black color
 
