@@ -44,7 +44,9 @@ But we have provided [.stl exports](TODO) for you as well.
 
 <img alt="Anemone Tentacle 3D Model in Blender A" src="https://github.com/ceskasporitelna/anemone/blob/master/documentation/images/blender/blender1.jpg?raw=true" width="300"> <img alt="Anemone Tentacle 3D Model in Blender B" src="https://github.com/ceskasporitelna/anemone/blob/master/documentation/images/blender/blender2.jpg?raw=true" width="300">
 
-Anemone Tentacle case consists of the following parts:
+### Tentacle Components
+
+Anemone Tentacle consists of the following components:
 
 TODO image with arrows and part names
 
@@ -52,9 +54,20 @@ TODO image with arrows and part names
 
 <img alt="Anemone Tentacle Parts Description Left" src="https://github.com/ceskasporitelna/anemone/blob/master/documentation/images/renders/numbered/left_big.png?raw=true" width="300"> <img alt="Anemone Tentacle Parts Description Right" src="https://github.com/ceskasporitelna/anemone/blob/master/documentation/images/renders/numbered/right_big.png?raw=true" width="300">
 
+1. Top LEDs
+2. Tentacle Shield
+3. Arduino YÚN
+4. Display Board
+5. Cloud Button
+6. Buzzer YL-44
+7. Arduino TFT Display
+8. Top Button
+9. RJ-11 I2C Socket
+10. Rotary Encoder KY-040
+
 ### Slicing
 
-The Anemone Tentacle 3D case is available either as [.stl files of 9 individual components](TODO):
+Anemone Tentacle case consists of the following components:
 
 * The Bottom Part
 * The Walls
@@ -65,6 +78,8 @@ The Anemone Tentacle 3D case is available either as [.stl files of 9 individual 
 * The Front Button
 * The Top *(LEGO® compatible)* Cover
 * The Front Display Frame
+
+The components are available either as [9 .stl files of individual components](TODO).
 
 Or as three [*ready-to-print* .stl files](TODO) with all components assigned into three groups *(with slightly different print settings)* :
 
