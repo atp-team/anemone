@@ -28,7 +28,7 @@ Anemone Tentacle case is shown on the following images.
 
 #### Video
 
-TODO video link
+<iframe width="640" height="360" src="https://www.youtube.com/embed/jqXTOFYfvtk?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 
 #### Printed
 
