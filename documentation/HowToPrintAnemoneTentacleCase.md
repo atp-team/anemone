@@ -48,6 +48,10 @@ Anemone Tentacle case consists of the following parts:
 
 TODO image with arrows and part names
 
+<img alt="Anemone Tentacle Parts Description Left" src="https://github.com/ceskasporitelna/anemone/blob/master/documentation/images/renders/numbered/left.png?raw=true" width="300"> <img alt="Anemone Tentacle Parts Description Right" src="https://github.com/ceskasporitelna/anemone/blob/master/documentation/images/renders/numbered/right.png?raw=true" width="300">
+
+<img alt="Anemone Tentacle Parts Description Left" src="https://github.com/ceskasporitelna/anemone/blob/master/documentation/images/renders/numbered/left_big.png?raw=true" width="300"> <img alt="Anemone Tentacle Parts Description Right" src="https://github.com/ceskasporitelna/anemone/blob/master/documentation/images/renders/numbered/right_big.png?raw=true" width="300">
+
 ### Slicing
 
 The Anemone Tentacle 3D case is available either as [.stl files of 9 individual components](TODO):
