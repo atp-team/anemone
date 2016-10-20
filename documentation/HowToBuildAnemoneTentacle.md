@@ -6,11 +6,15 @@ Anemone Tentacle is a DIY Open Hardware device you can build and 3D print a cute
 
 ## How Tentacle looks like?
 
-TODO 2 images
+<img class="icon" alt="Anemone Tentacle - Render from left" src="https://github.com/ceskasporitelna/anemone/blob/master/documentation/images/renders/alpha/blur_tentacle_left.png?raw=true" width="300"> <img class="icon" alt="Anemone Tentacle - Render from right" src="https://github.com/ceskasporitelna/anemone/blob/master/documentation/images/renders/alpha/blur_tentacle_right.png?raw=true" width="300">
+
+TODO 2 printed images
 
 Tentacle has three hardware controls which you can see on the following image:
 
-TODO image
+<img class="icon" alt="Anemone Tentacle - Interactive parts" src="https://github.com/ceskasporitelna/anemone/blob/master/documentation/images/renders/tentacle_interactive_parts.png?raw=true" width="600">
+
+> The interactive parts are shown in black color
 
 * The **top button** is used as a *back button* by the [Anemone arduino library](https://github.com/ceskasporitelna/anemone/tree/master/toolkit/anemone-arduino-library), but can be used in your Anemone apps as well
 * The **side knob** is used as a *menu button & controller* and should not be used for any other purpose than a menu trigger and navigation
