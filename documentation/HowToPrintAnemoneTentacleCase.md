@@ -32,6 +32,8 @@ Anemone Tentacle case is shown on the following images.
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/jqXTOFYfvtk?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 
+> Video in better quality can be seen at [youtube](https://youtu.be/jqXTOFYfvtk).
+
 #### Printed
 
 TODO final Anemone Tentacle printed and running
