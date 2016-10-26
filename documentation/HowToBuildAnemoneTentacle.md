@@ -12,7 +12,7 @@ Anemone Tentacle is a DIY Open Hardware device you can build and 3D print a cute
 
 <img class="icon" alt="Anemone Tentacle - Render from right" src="https://github.com/ceskasporitelna/anemone/blob/master/documentation/images/renders/alpha/blur_tentacle_right.png?raw=true" width="300"> <img class="icon" alt="Anemone Tentacle - Render from left" src="https://github.com/ceskasporitelna/anemone/blob/master/documentation/images/renders/alpha/blur_tentacle_left.png?raw=true" width="300">
 
-TODO 2 printed images
+<img class="icon" alt="Anemone Tentacle - Printed and assembled from left" src="https://github.com/ceskasporitelna/anemone/blob/master/documentation/images/assembled_tentacle/0_assembled_tentacle_alpha_left.png?raw=true" height="300"> <img class="icon" alt="Anemone Tentacle - Printed and assembled from right" src="https://github.com/ceskasporitelna/anemone/blob/master/documentation/images/assembled_tentacle/0_assembled_tentacle_alpha_right.png?raw=true" height="300">
 
 Tentacle has three hardware controls which you can see on the following image:
 
