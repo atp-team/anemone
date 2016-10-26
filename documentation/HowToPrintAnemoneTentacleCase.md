@@ -36,7 +36,7 @@ Anemone Tentacle case is shown on the following images.
 
 #### Printed
 
-TODO final Anemone Tentacle printed and running
+<img alt="Anemone Tentacle Printed and Running" src="https://github.com/ceskasporitelna/anemone/blob/master/documentation/images/assembled_tentacle/7_assembled_tentacle_running_app.jpg?raw=true" width="600">
 
 > For the *How to build* Anemone Tentacle refer to a separate page of our tutorial, see [How to build Anemone Tentacle](https://github.com/ceskasporitelna/anemone/blob/master/documentation/HowToBuildAnemoneTentacle.md).
 
