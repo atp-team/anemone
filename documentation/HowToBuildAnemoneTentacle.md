@@ -496,15 +496,15 @@ TODO image with Tentacle without a case
 
 When assembled your Tentacle should look like this:
 
-TODO image with Tentacle in a case
+<img class="icon" alt="Anemone Tentacle - Printed and assembled" src="https://github.com/ceskasporitelna/anemone/blob/master/documentation/images/assembled_tentacle/1_assembled_tentacle.jpg?raw=true" width="600">
 
 As a last step, you should add the Top Cover:
 
-TODO image with assembled Tentacle without top cover
+<img class="icon" alt="Anemone Tentacle - Printed and assembled without top cover" src="https://github.com/ceskasporitelna/anemone/blob/master/documentation/images/assembled_tentacle/4_assembled_tentacle_inside.jpg?raw=true" width="600">
 
 And your Tentacle is ready!
 
-TODO image with assembled Tentacle with top cover
+<img class="icon" alt="Anemone Tentacle - Printed, assembled and done" src="https://github.com/ceskasporitelna/anemone/blob/master/documentation/images/assembled_tentacle/3_assembled_tentacle_top.jpg?raw=true" width="600">
 
 In order to make your life easier, we have create a video with shows the whole Tentacle assembly process.
 
