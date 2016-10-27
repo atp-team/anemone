@@ -380,3 +380,5 @@ When your sketch will work as you wanted on your Tentacle, then it is time to up
 When your Anemone App is tested and ready, you can **submit it for review**.
 
 You can do this by logging into your *Anemone Cloud Administration*, and pressing the "**Submit for Review**" link next to your Anemone App.
+
+*[#anemoneCloud](https://twitter.com/hashtag/anemoneCloud)*

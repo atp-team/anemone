@@ -253,3 +253,5 @@ In order to create your own Anemone Connector, you just need to implement the Ru
 We will review it and deploy to the Anemone Cloud *(or reject ;))*.
 
 > Currently there is no automated way of adding *Anemone Connectors* to the *Anemone Cloud*.
+
+*[#anemoneCloud](https://twitter.com/hashtag/anemoneCloud)*

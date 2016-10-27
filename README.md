@@ -10,6 +10,8 @@ First take a look at our website [http://www.anemone.cloud](http://www.anemone.c
 
 Then continue reading.
 
+*[#anemoneCloud](https://twitter.com/hashtag/anemoneCloud)*
+
 ## Platform ecosystem
 
 Anemone ecosystem consists of:
