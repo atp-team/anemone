@@ -28,11 +28,9 @@ Anemone Tentacle case is shown on the following images.
 
 #### Video
 
-![Anemone Tentacle 3D Visualization](http://i.makeagif.com/media/10-20-2016/-5jEft.gif)
+![Anemone Tentacle Mk1 3D Visualization](http://i.giphy.com/oO3KEcSuSlGg0.gif)
 
-<iframe width="640" height="360" src="https://www.youtube.com/embed/jqXTOFYfvtk?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-
-> Video in better quality can be seen at [youtube](https://youtu.be/jqXTOFYfvtk).
+> Video in better quality can be seen at [youtube](https://youtu.be/J8Jwhn_DrBI).
 
 #### Printed
 
