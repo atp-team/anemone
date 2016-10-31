@@ -321,7 +321,7 @@ When starting *as a Developer* do the following:
 5. Read the [How to make Anemone Connector](https://github.com/ceskasporitelna/anemone/blob/master/documentation/HowToMakeAnemoneConnector.md) tutorial
 6. You may be also interested in the [Anemone Apps Repository](https://github.com/ceskasporitelna/anemone/tree/master/apps), [List of available Anemone Connectors](https://github.com/ceskasporitelna/anemone/tree/master/connectors) and [Anemone Arduino Library documentation](https://github.com/ceskasporitelna/anemone/tree/master/toolkit/anemone-arduino-library)
 7. Explore the "Juicy Day" [example Anemone App on our GitHub](https://github.com/ceskasporitelna/anemone/tree/master/apps/juicy-day)
-8. Write us. Tweet about us, write on Facebook, make a blogpost. Use hashtag **#anemoneCloud**.
+8. Write us. Tweet about us, write on Facebook, make a blogpost. Use hashtag *[#anemoneCloud](https://twitter.com/hashtag/anemoneCloud)*.
 
 ## Who Is Behind This?
 
@@ -414,6 +414,8 @@ Anemone Platform is build using well known technologies you should not miss.
 ## Terms and License
 
 This software is licensed under [MIT license](https://github.com/ceskasporitelna/anemone/blob/master/LICENSE.md).
+
+*[#anemoneCloud](https://twitter.com/hashtag/anemoneCloud)*
 
 <img alt="Anemone Tentacle" src="https://github.com/ceskasporitelna/anemone/raw/master/documentation/images/tentacle_gloss.png" width="300">
 
