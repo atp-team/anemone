@@ -6,7 +6,7 @@ Anemone Tentacle is a DIY Open Hardware device you can build and 3D print a cute
 
 ## How Tentacle looks like?
 
-![Anemone Tentacle Mk1 3D Visualization](http://i.giphy.com/oO3KEcSuSlGg0.gif)
+![Anemone Tentacle Mk1 3D Visualization](https://github.com/ceskasporitelna/anemone/blob/master/documentation/images/anemone_tentacle_mk1_giphy.gif?raw=true)
 
 > Video in better quality can be seen at [youtube](https://youtu.be/J8Jwhn_DrBI).
 
