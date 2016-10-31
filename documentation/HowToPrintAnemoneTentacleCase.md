@@ -218,8 +218,6 @@ These tools will help you with 3D printing *(and removing the supports from the 
 
 Because the top of the Anemone Tentacle is LEGO® compatible, you can customize your Tentacle to fit your desires with the world most famous building kit.
 
-TODO 2 Tentacle images with LEGO build on them
-
 *LEGO® is a trademark of the LEGO Group of companies which does not sponsor, authorize or endorse this site ([trademark guidelines](http://www.lego.com/en-us/legal/legal-notice/fair-play)).*
 
 *[#anemoneCloud](https://twitter.com/hashtag/anemoneCloud)*
