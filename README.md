@@ -339,14 +339,14 @@ In case of any question or issue, feel free to add a GitHub Issue in this reposi
 
 For their great effort we owe a BIG thank to the following people and entities from the joint project development team (everybody did *a lot more* then what was expected from him):
 
-* *Pedro Pinto da Silva* for the outstanding graphical design of the entire platform including website, mobile app, Arduino app UI and infographics. This platform design has a story.
+* *[Pedro Pinto da Silva](http://pedropintosilva.com)* for the outstanding graphical design of the entire platform including website, mobile app, Arduino app UI and infographics. This platform design has a story.
 * *[Martin Svoboda](https://github.com/svobom57)* for the development of Anemone Cloud Ruby on Rails application, manifest and interface JSON parsers and database.
-* *Šimon Kautský* for the development of Anemone Mobile Client app both for iOS and Android in Unity3D and for solving all these ugly platform specific bugs.
-* *Filip Bursík* for the development of Arduino part of Anemone platform in C and for all those dreamless nights when the program did not fit the small Arduino YÚN memory.
-* *Michal Mlejnek* for the huge amount of Anemone Tentacle 3D case model iterations in Blender - including the final one which you can print and enjoy.
-* *Jana Moudrá* for coding the Anemone platform presentational website (the one at [http://www.anemone.cloud](http://www.anemone.cloud)). Fully responsive with all the cute JS features.
-* *Honza Sechovec* for the vision, guidance and mainly for the patience. The development of the platform took a bit longer than expected, but the result is worth it.
-* *Tomáš Jukin* for the platform architecture and the fact that all the stuff fits well together. And for the ugly electronical stuff, the documentation, slicing, soldering and 3D printing.
+* *[Šimon Kautský](https://twitter.com/SimonKautzky)* for the development of Anemone Mobile Client app both for iOS and Android in Unity3D and for solving all these ugly platform specific bugs.
+* *[Filip Bursík](#)* for the development of Arduino part of Anemone platform in C and for all those dreamless nights when the program did not fit the small Arduino YÚN memory.
+* *[Michal Mlejnek](https://github.com/chaemil)* for the huge amount of Anemone Tentacle 3D case model iterations in Blender - including the final one which you can print and enjoy.
+* *[Jana Moudrá](https://github.com/Janamou)* for coding the Anemone platform presentational website (the one at [http://www.anemone.cloud](http://www.anemone.cloud)). Fully responsive with all the cute JS features.
+* *[Honza Sechovec](https://github.com/jsechovec)* for the vision, guidance and mainly for the patience. The development of the platform took a bit longer than expected, but the result is worth it.
+* *[Tomáš Jukin](http://github.com/Inza)* for the platform architecture and the fact that all the stuff fits well together. And for the ugly electronical stuff, the documentation, slicing, soldering and 3D printing.
 * *Kanárek* (which is a [Prusa3D i3 MK2 3D printer](http://www.prusa3d.cz/#i3-printer)) for printing every single iteration of the Anemone Tentacle 3D case model and still work.
 
 ### Used technologies
